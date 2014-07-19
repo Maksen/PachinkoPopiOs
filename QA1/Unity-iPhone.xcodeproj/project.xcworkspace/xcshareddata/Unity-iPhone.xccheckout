@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>E5230ADE-302F-4698-9B7C-C991ABF26100</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Unity-iPhone</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>94B11EE7-6B9F-41F3-9D29-3713CD310AB3</key>
+		<string>https://extsvn.bigfishgames.com/svn/pachinkoiOSclient</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>trunk/SteelSteedStudio/QA1/Pachinko_iOS/Unity-iPhone.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>94B11EE7-6B9F-41F3-9D29-3713CD310AB3</key>
+		<string>../../../../../..</string>
+	</dict>
+	<key>IDESourceControlProjectRepositoryRootDictionary</key>
+	<dict>
+		<key>94B11EE7-6B9F-41F3-9D29-3713CD310AB3</key>
+		<string>https://extsvn.bigfishgames.com/svn/pachinkoiOSclient</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://extsvn.bigfishgames.com/svn/pachinkoiOSclient/trunk/SteelSteedStudio/QA1/Pachinko_iOS/Unity-iPhone.xcodeproj</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>94B11EE7-6B9F-41F3-9D29-3713CD310AB3</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.subversion</string>
+			<key>IDESourceControlRepositoryTrunkRelativeLocationKey</key>
+			<string>trunk</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>94B11EE7-6B9F-41F3-9D29-3713CD310AB3</string>
+			<key>IDESourceControlWCCName</key>
+			<string>SVN_bfg</string>
+		</dict>
+	</array>
+</dict>
+</plist>

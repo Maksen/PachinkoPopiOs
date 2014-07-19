@@ -1,0 +1,29 @@
+{
+	"allowed_ad_types":
+	[
+	  "bfg"
+	],
+    "hbi" : "12d12d447590b7b099f21b978aff8152eaf62c10",
+    "dashboard_display_type":"free",
+ 	"dashboard_active":0,
+	"dashboard_show_after_this_many_runs":1,
+	"iap_default_product_id":"com.bigfishgames.pachinkopopuniversalf2p.coins2tier",
+	"flurryapikey":"VVKPWY4FCFVPKVH2YYPH",
+    "rating_days_until_prompt":0,
+    "rating_uses_until_prompt":0,
+    "rating_significant_events_until_prompt":3,
+    "rating_days_before_reminding":1,
+    "playhaven": {
+        "token":"4f49854752994e8fad03845149d1489e",
+        "secret":"d536de634b6742b495fd440931d6ffcc"
+    },
+    "kontagent": {
+        "api_key1":"435de8b1195a4c09ad2ce2d7fd244568",
+        "api_key2":"df75ff1f18ed4f628badba8fb5e730fa",
+        "start_datetime":"2013-01-01 00:00:00 PDT"
+    },
+    "hasoffers": {
+        "api_key":"62852"
+    }
+}
+
