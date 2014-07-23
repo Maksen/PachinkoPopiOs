@@ -1,0 +1,3560 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DocSetNodes version="1.0">
+  <TOC>
+    <Node>
+      <Name>Root</Name>
+      <Path>index.html</Path>
+      <Subnodes>
+       <Node>
+        <Name>Getting Started</Name>
+        <Path>index.html</Path>
+        <Subnodes>
+         <Node>
+          <Name>Requirements</Name>
+          <Path>index.html</Path>
+          <Anchor>requirements</Anchor>
+         </Node>
+         <Node>
+          <Name>Integrating the Big Fish iOS SDK into Your iOS Game</Name>
+          <Path>index.html</Path>
+          <Anchor>integration</Anchor>
+          <Subnodes>
+           <Node>
+            <Name>Step 1: The Xcode project</Name>
+            <Path>index.html</Path>
+            <Anchor>_Xcode_environment</Anchor>
+           </Node>
+           <Node>
+            <Name>Step 2: Add required frameworks and libraries</Name>
+            <Path>index.html</Path>
+            <Anchor>frameworks</Anchor>
+           </Node>
+           <Node>
+            <Name>Step 3: Integrate the Big Fish iOS SDK framework</Name>
+            <Path>index.html</Path>
+            <Anchor>integrate</Anchor>
+           </Node>
+           <Node>
+            <Name>Step 4: Customize game-specific resources</Name>
+            <Path>index.html</Path>
+            <Anchor>game_resources</Anchor>
+           </Node>
+           <Node>
+            <Name>Step 5: Initialize bfgManager</Name>
+            <Path>index.html</Path>
+            <Anchor>initialize</Anchor>
+           </Node>
+           <Node>
+            <Name>Step 6: Start the implemented services</Name>
+            <Path>index.html</Path>
+            <Anchor>gs_startServices</Anchor>
+           </Node>
+           <Node>
+            <Name>Step 7: Register for the resulting notifications</Name>
+            <Path>index.html</Path>
+            <Anchor>gs_registerNotification</Anchor>
+           </Node>
+           <Node>
+            <Name>Step 8: Implement Big Fish components in your game</Name>
+            <Path>index.html</Path>
+            <Anchor>startPurchase</Anchor>
+            <Subnodes>
+             <Node>
+              <Name>Sample code</Name>
+              <Path>index.html</Path>
+              <Anchor>sampleCode</Anchor>
+             </Node>
+            </Subnodes>
+           </Node>
+           <Node>
+            <Name>Step 9: Debugging</Name>
+            <Path>index.html</Path>
+            <Anchor>debugging</Anchor>
+           </Node>
+          </Subnodes>
+         </Node>
+        </Subnodes>
+       </Node>
+       <Node>
+        <Name>Freemium Games</Name>
+        <Path>usergroup0.html</Path>
+        <Subnodes>
+         <Node>
+          <Name>Freemium Overview</Name>
+          <Path>_freemium.html</Path>
+         </Node>
+         <Node>
+          <Name>Main Menu Best Practices</Name>
+          <Path>main_menu.html</Path>
+         </Node>
+         <Node>
+          <Name>Game Flow on Launch</Name>
+          <Path>game_flow.html</Path>
+         </Node>
+         <Node>
+          <Name>Buy Wall Best Practices</Name>
+          <Path>buy_wall.html</Path>
+         </Node>
+         <Node>
+          <Name>Freemium In-App Purchase</Name>
+          <Path>freemium_purchase.html</Path>
+         </Node>
+         <Node>
+          <Name>Usability Requirements</Name>
+          <Path>usability.html</Path>
+         </Node>
+         <Node>
+          <Name>Production Requirements</Name>
+          <Path>production.html</Path>
+         </Node>
+         <Node>
+          <Name>Development Checklist</Name>
+          <Path>checklist.html</Path>
+         </Node>
+        </Subnodes>
+       </Node>
+       <Node>
+        <Name>Free-to-Play Games</Name>
+        <Path>usergroup1.html</Path>
+        <Subnodes>
+         <Node>
+          <Name>Free-to-Play Overview</Name>
+          <Path>_f2_p.html</Path>
+         </Node>
+         <Node>
+          <Name>Main Menu Best Practices</Name>
+          <Path>f2p_main_menu.html</Path>
+         </Node>
+         <Node>
+          <Name>Game Flow on Launch</Name>
+          <Path>f2p_game_flow.html</Path>
+         </Node>
+         <Node>
+          <Name>Facebook Best Practices</Name>
+          <Path>f2p_facebook.html</Path>
+         </Node>
+         <Node>
+          <Name>Free-to-Play In-App Purchase</Name>
+          <Path>f2p_purchase.html</Path>
+         </Node>
+         <Node>
+          <Name>Usability Requirements</Name>
+          <Path>f2p_usability.html</Path>
+         </Node>
+         <Node>
+          <Name>Production Requirements</Name>
+          <Path>f2p_production.html</Path>
+         </Node>
+         <Node>
+          <Name>Development Checklist</Name>
+          <Path>f2p_checklist.html</Path>
+         </Node>
+        </Subnodes>
+       </Node>
+       <Node>
+        <Name>Technical References</Name>
+        <Path>usergroup2.html</Path>
+        <Subnodes>
+         <Node>
+          <Name>Overview</Name>
+          <Path>reference_overview.html</Path>
+         </Node>
+         <Node>
+          <Name>Tools and Standards</Name>
+          <Path>standards.html</Path>
+         </Node>
+         <Node>
+          <Name>Game Specific Resources</Name>
+          <Path>reference_gamespecific.html</Path>
+         </Node>
+         <Node>
+          <Name>Feature Configuration Matrix</Name>
+          <Path>reference_sdk_feature_configurability.html</Path>
+         </Node>
+         <Node>
+          <Name>Classes and Components</Name>
+          <Path>reference_class.html</Path>
+         </Node>
+         <Node>
+          <Name>Testing In-App Purchases</Name>
+          <Path>iap_dummy_app_test.html</Path>
+         </Node>
+         <Node>
+          <Name>Debugging</Name>
+          <Path>_d_e_b_u_g.html</Path>
+         </Node>
+         <Node>
+          <Name>QA Testing</Name>
+          <Path>qa_testing.html</Path>
+         </Node>
+        </Subnodes>
+       </Node>
+       <Node>
+        <Name>Classes</Name>
+        <Path></Path>
+        <Subnodes>
+         <Node>
+          <Name>Class List</Name>
+          <Path>annotated.html</Path>
+          <Subnodes>
+           <Node>
+            <Name>bfgAdsController</Name>
+            <Path>interfacebfg_ads_controller.html</Path>
+            <Subnodes>
+             <Node>
+              <Name>initWithView:withOrientation:withOrigin:</Name>
+              <Path>interfacebfg_ads_controller.html</Path>
+              <Anchor>abc50ff214aca394387a233fdcc435e9e</Anchor>
+             </Node>
+             <Node>
+              <Name>skip</Name>
+              <Path>interfacebfg_ads_controller.html</Path>
+              <Anchor>aebeabbdacb0b9ec850a7b56de8948d8f</Anchor>
+             </Node>
+             <Node>
+              <Name>start</Name>
+              <Path>interfacebfg_ads_controller.html</Path>
+              <Anchor>a8b42a90ceaaa8b08aa3592191e3de903</Anchor>
+             </Node>
+             <Node>
+              <Name>stop</Name>
+              <Path>interfacebfg_ads_controller.html</Path>
+              <Anchor>ad3fe20a6b107d33d8b7c5d4be01ef6d0</Anchor>
+             </Node>
+            </Subnodes>
+           </Node>
+           <Node>
+            <Name>bfgAppManager</Name>
+            <Path>interfacebfg_app_manager.html</Path>
+            <Subnodes>
+            </Subnodes>
+           </Node>
+           <Node>
+            <Name>bfgBrandingViewController</Name>
+            <Path>interfacebfg_branding_view_controller.html</Path>
+            <Subnodes>
+             <Node>
+              <Name>complete</Name>
+              <Path>interfacebfg_branding_view_controller.html</Path>
+              <Anchor>a0dd92b706b1ca8b050e18ac9d7e2d206</Anchor>
+             </Node>
+            </Subnodes>
+           </Node>
+           <Node>
+            <Name>bfgGameReporting</Name>
+            <Path>interfacebfg_game_reporting.html</Path>
+            <Subnodes>
+            </Subnodes>
+           </Node>
+           <Node>
+            <Name>bfgLoginController</Name>
+            <Path>interfacebfg_login_controller.html</Path>
+            <Subnodes>
+            </Subnodes>
+           </Node>
+           <Node>
+            <Name>bfgMailController</Name>
+            <Path>interfacebfg_mail_controller.html</Path>
+            <Subnodes>
+             <Node>
+              <Name>initWithViewController:completionNotification:</Name>
+              <Path>interfacebfg_mail_controller.html</Path>
+              <Anchor>a6863581921b5ee8b8cbc026a246bb6b5</Anchor>
+             </Node>
+             <Node>
+              <Name>presentEmailWithImage:emailAddress:subject:body:reporting:</Name>
+              <Path>interfacebfg_mail_controller.html</Path>
+              <Anchor>a93c9bc8c211f06142aeace8872c81bea</Anchor>
+             </Node>
+            </Subnodes>
+           </Node>
+           <Node>
+            <Name>bfgManager</Name>
+            <Path>interfacebfg_manager.html</Path>
+            <Subnodes>
+            </Subnodes>
+           </Node>
+           <Node>
+            <Name>bfgNetwork</Name>
+            <Path>interfacebfg_network.html</Path>
+            <Subnodes>
+             <Node>
+              <Name>addRemoteHost:</Name>
+              <Path>interfacebfg_network.html</Path>
+              <Anchor>a4fe24337472c655177deefa5cd97536e</Anchor>
+             </Node>
+             <Node>
+              <Name>isHostReachable:</Name>
+              <Path>interfacebfg_network.html</Path>
+              <Anchor>a49128a9e6fdf3578409275347a6f6eb9</Anchor>
+             </Node>
+             <Node>
+              <Name>isReachable</Name>
+              <Path>interfacebfg_network.html</Path>
+              <Anchor>a6afe47a3873552c80922c88c76354ff1</Anchor>
+             </Node>
+             <Node>
+              <Name>isWIFI</Name>
+              <Path>interfacebfg_network.html</Path>
+              <Anchor>ae54fb566003b685a746bf0dd3c3abd0e</Anchor>
+             </Node>
+            </Subnodes>
+           </Node>
+           <Node>
+            <Name>bfgPurchase</Name>
+            <Path>interfacebfg_purchase.html</Path>
+            <Subnodes>
+            </Subnodes>
+           </Node>
+           <Node>
+            <Name>bfgPurchaseObject</Name>
+            <Path>interfacebfg_purchase_object.html</Path>
+            <Subnodes>
+             <Node>
+              <Name>isEqualToPurchaseObject:</Name>
+              <Path>interfacebfg_purchase_object.html</Path>
+              <Anchor>abffc2f2f8ca3851dee96a8737eab064a</Anchor>
+             </Node>
+             <Node>
+              <Name>productId</Name>
+              <Path>interfacebfg_purchase_object.html</Path>
+              <Anchor>ad6d1f2e4747ccc172e5ac58820ccdb83</Anchor>
+             </Node>
+             <Node>
+              <Name>canceled</Name>
+              <Path>interfacebfg_purchase_object.html</Path>
+              <Anchor>ab174ddb7c4bcb95b4c420bb5dbbe06e7</Anchor>
+             </Node>
+             <Node>
+              <Name>error</Name>
+              <Path>interfacebfg_purchase_object.html</Path>
+              <Anchor>a0cd89b4669fcb90610420686eab40b99</Anchor>
+             </Node>
+             <Node>
+              <Name>paymentTransaction</Name>
+              <Path>interfacebfg_purchase_object.html</Path>
+              <Anchor>aef46953547a81a3cfc6bc1b7d553b3fe</Anchor>
+             </Node>
+             <Node>
+              <Name>productInfo</Name>
+              <Path>interfacebfg_purchase_object.html</Path>
+              <Anchor>a466391bf429740b2b6875e347aeb6551</Anchor>
+             </Node>
+             <Node>
+              <Name>purchaseStart</Name>
+              <Path>interfacebfg_purchase_object.html</Path>
+              <Anchor>a9e6a94edc273259707d9f1cd2b2fcf7f</Anchor>
+             </Node>
+             <Node>
+              <Name>quantity</Name>
+              <Path>interfacebfg_purchase_object.html</Path>
+              <Anchor>ae9a01fafdcd4cddcb6623519655015e9</Anchor>
+             </Node>
+             <Node>
+              <Name>restore</Name>
+              <Path>interfacebfg_purchase_object.html</Path>
+              <Anchor>ae3ed50948465b72f1ea3eb41ab0eaecc</Anchor>
+             </Node>
+             <Node>
+              <Name>sandbox</Name>
+              <Path>interfacebfg_purchase_object.html</Path>
+              <Anchor>aa8273c64264288297b53031aeabe00be</Anchor>
+             </Node>
+             <Node>
+              <Name>success</Name>
+              <Path>interfacebfg_purchase_object.html</Path>
+              <Anchor>a75eeec4b6ee86ae35e2077a0b5f549cb</Anchor>
+             </Node>
+            </Subnodes>
+           </Node>
+           <Node>
+            <Name>bfgPushNotificationManager</Name>
+            <Path>interfacebfg_push_notification_manager.html</Path>
+            <Subnodes>
+            </Subnodes>
+           </Node>
+           <Node>
+            <Name>bfgRating</Name>
+            <Path>interfacebfg_rating.html</Path>
+            <Subnodes>
+            </Subnodes>
+           </Node>
+           <Node>
+            <Name>bfgReporting</Name>
+            <Path>interfacebfg_reporting.html</Path>
+            <Subnodes>
+            </Subnodes>
+           </Node>
+           <Node>
+            <Name>bfgSettings</Name>
+            <Path>interfacebfg_settings.html</Path>
+            <Subnodes>
+            </Subnodes>
+           </Node>
+           <Node>
+            <Name>bfgSplash</Name>
+            <Path>interfacebfg_splash.html</Path>
+            <Subnodes>
+            </Subnodes>
+           </Node>
+           <Node>
+            <Name>bfgStrings</Name>
+            <Path>interfacebfg_strings.html</Path>
+            <Subnodes>
+            </Subnodes>
+           </Node>
+           <Node>
+            <Name>bfgutils</Name>
+            <Path>interfacebfgutils.html</Path>
+            <Subnodes>
+            </Subnodes>
+           </Node>
+          </Subnodes>
+         </Node>
+        </Subnodes>
+       </Node>
+       <Node>
+        <Name>Files</Name>
+        <Path></Path>
+        <Subnodes>
+         <Node>
+          <Name>File List</Name>
+          <Path>files.html</Path>
+          <Subnodes>
+           <Node>
+            <Name>bfgadsConsts.h</Name>
+            <Path>bfgads_consts_8h.html</Path>
+            <Subnodes>
+             <Node>
+              <Name>bfgadsOrigin</Name>
+              <Path>bfgads_consts_8h.html</Path>
+              <Anchor>ab78daf604d38711724d48a995c784335</Anchor>
+              <Subnodes>
+               <Node>
+                <Name>BFGADS_ORIGIN_DEFAULT</Name>
+                <Path>bfgads_consts_8h.html</Path>
+                <Anchor>ab78daf604d38711724d48a995c784335a675a5b87a2c22ab6bd3ef2fadf5de585</Anchor>
+               </Node>
+               <Node>
+                <Name>BFGADS_ORIGIN_TOP</Name>
+                <Path>bfgads_consts_8h.html</Path>
+                <Anchor>ab78daf604d38711724d48a995c784335a94cdf79e16a52fe9be03e8172ba5516d</Anchor>
+               </Node>
+               <Node>
+                <Name>BFGADS_ORIGIN_BOTTOM</Name>
+                <Path>bfgads_consts_8h.html</Path>
+                <Anchor>ab78daf604d38711724d48a995c784335a31544a667b0875c36b19354528c8c284</Anchor>
+               </Node>
+              </Subnodes>
+             </Node>
+            </Subnodes>
+           </Node>
+           <Node>
+            <Name>bfgadsController.h</Name>
+            <Path>bfgads_controller_8h.html</Path>
+            <Subnodes>
+             <Node>
+              <Name>bfgAdsController</Name>
+              <Path>interfacebfg_ads_controller.html</Path>
+              <Subnodes>
+               <Node>
+                <Name>initWithView:withOrientation:withOrigin:</Name>
+                <Path>interfacebfg_ads_controller.html</Path>
+                <Anchor>abc50ff214aca394387a233fdcc435e9e</Anchor>
+               </Node>
+               <Node>
+                <Name>skip</Name>
+                <Path>interfacebfg_ads_controller.html</Path>
+                <Anchor>aebeabbdacb0b9ec850a7b56de8948d8f</Anchor>
+               </Node>
+               <Node>
+                <Name>start</Name>
+                <Path>interfacebfg_ads_controller.html</Path>
+                <Anchor>a8b42a90ceaaa8b08aa3592191e3de903</Anchor>
+               </Node>
+               <Node>
+                <Name>stop</Name>
+                <Path>interfacebfg_ads_controller.html</Path>
+                <Anchor>ad3fe20a6b107d33d8b7c5d4be01ef6d0</Anchor>
+               </Node>
+              </Subnodes>
+             </Node>
+            </Subnodes>
+           </Node>
+           <Node>
+            <Name>bfgAppManager.h</Name>
+            <Path>bfg_app_manager_8h.html</Path>
+            <Subnodes>
+             <Node>
+              <Name>bfgAppManager</Name>
+              <Path>interfacebfg_app_manager.html</Path>
+              <Subnodes>
+              </Subnodes>
+             </Node>
+             <Node>
+              <Name>BFG_BIG_FISH_GAMES_BUNDLE_ID</Name>
+              <Path>bfg_app_manager_8h.html</Path>
+              <Anchor>a713afe866e0754ad84251a37b3f6d0fe</Anchor>
+             </Node>
+             <Node>
+              <Name>BFG_BUNDLE_IDENTIFIER_KEY</Name>
+              <Path>bfg_app_manager_8h.html</Path>
+              <Anchor>a0b2b15a6c712b2cad6993bea41723270</Anchor>
+             </Node>
+             <Node>
+              <Name>BFG_NOTIFICATION_APP_DETECTED</Name>
+              <Path>bfg_app_manager_8h.html</Path>
+              <Anchor>afe6184bbf6b1beb2bd58e2b7180fbe58</Anchor>
+             </Node>
+             <Node>
+              <Name>BFG_NOTIFICATION_APP_STORE_DISMISSED</Name>
+              <Path>bfg_app_manager_8h.html</Path>
+              <Anchor>a356a24ceb34c943938668ca7715f488d</Anchor>
+             </Node>
+             <Node>
+              <Name>BFG_NOTIFICATION_APP_STORE_PRESENTED</Name>
+              <Path>bfg_app_manager_8h.html</Path>
+              <Anchor>a448c0d9085fd1510df34a062de2c2516</Anchor>
+             </Node>
+             <Node>
+              <Name>BFG_NOTIFICATION_DOWNLOAD_DIALOG_DISMISSED_CANCEL</Name>
+              <Path>bfg_app_manager_8h.html</Path>
+              <Anchor>aaf8991953e286f81e4b4725fd7bf5a93</Anchor>
+             </Node>
+             <Node>
+              <Name>BFG_NOTIFICATION_DOWNLOAD_DIALOG_DISMISSED_DOWNLOAD</Name>
+              <Path>bfg_app_manager_8h.html</Path>
+              <Anchor>a882cd77fed951a39d862d23f7a4c33b0</Anchor>
+             </Node>
+             <Node>
+              <Name>BFG_NOTIFICATION_DOWNLOAD_DIALOG_PRESENTED</Name>
+              <Path>bfg_app_manager_8h.html</Path>
+              <Anchor>a934c67cad0d61198bba94b4ba4fc2502</Anchor>
+             </Node>
+             <Node>
+              <Name>BFG_NOTIFICATION_OPEN_REFERRAL_URL_FAILED</Name>
+              <Path>bfg_app_manager_8h.html</Path>
+              <Anchor>af2a9bbca3b5c74ac7c4fb7e678172528</Anchor>
+             </Node>
+             <Node>
+              <Name>BFG_NOTIFICATION_OPEN_REFERRAL_URL_STARTED</Name>
+              <Path>bfg_app_manager_8h.html</Path>
+              <Anchor>a1bc604867091164f1a543650b26e3ab0</Anchor>
+             </Node>
+             <Node>
+              <Name>BFG_NOTIFICATION_OPEN_REFERRAL_URL_SUCCEEDED</Name>
+              <Path>bfg_app_manager_8h.html</Path>
+              <Anchor>ab85e637819643fca4427c541bd64ffd6</Anchor>
+             </Node>
+             <Node>
+              <Name>BFG_NOTIFICATION_OPENING_APP_STORE</Name>
+              <Path>bfg_app_manager_8h.html</Path>
+              <Anchor>a947ca5275f6c1828e7e6c073af730e55</Anchor>
+             </Node>
+             <Node>
+              <Name>BFG_OPEN_REFERAL_URL_ERROR_KEY</Name>
+              <Path>bfg_app_manager_8h.html</Path>
+              <Anchor>aabecda3451417c0ea4a8cea4e89368fa</Anchor>
+             </Node>
+            </Subnodes>
+           </Node>
+           <Node>
+            <Name>bfgBrandingViewController.h</Name>
+            <Path>bfg_branding_view_controller_8h.html</Path>
+            <Subnodes>
+             <Node>
+              <Name>bfgBrandingViewController</Name>
+              <Path>interfacebfg_branding_view_controller.html</Path>
+              <Subnodes>
+               <Node>
+                <Name>complete</Name>
+                <Path>interfacebfg_branding_view_controller.html</Path>
+                <Anchor>a0dd92b706b1ca8b050e18ac9d7e2d206</Anchor>
+               </Node>
+              </Subnodes>
+             </Node>
+            </Subnodes>
+           </Node>
+           <Node>
+            <Name>bfgGameReporting.h</Name>
+            <Path>bfg_game_reporting_8h.html</Path>
+            <Subnodes>
+             <Node>
+              <Name>bfgGameReporting</Name>
+              <Path>interfacebfg_game_reporting.html</Path>
+              <Subnodes>
+              </Subnodes>
+             </Node>
+             <Node>
+              <Name>BFG_PLACEMENT_CONTENT_NAME_KEY</Name>
+              <Path>bfg_game_reporting_8h.html</Path>
+              <Anchor>a0099e41c927fca9c7ae6f28e6f565217</Anchor>
+             </Node>
+             <Node>
+              <Name>BFG_PLACEMENT_REWARD_NAME_KEY</Name>
+              <Path>bfg_game_reporting_8h.html</Path>
+              <Anchor>a2c658eb4f9775a1e7b1267d51412130d</Anchor>
+             </Node>
+            </Subnodes>
+           </Node>
+           <Node>
+            <Name>bfglibPrefix.h</Name>
+            <Path>bfglib_prefix_8h.html</Path>
+            <Subnodes>
+             <Node>
+              <Name>BFGLIB_VERSION_CURRENT</Name>
+              <Path>bfglib_prefix_8h.html</Path>
+              <Anchor>a07eeb11774a257481c4290b159843af2</Anchor>
+             </Node>
+            </Subnodes>
+           </Node>
+           <Node>
+            <Name>bfgLoginController.h</Name>
+            <Path>bfg_login_controller_8h.html</Path>
+            <Subnodes>
+             <Node>
+              <Name>bfgLoginController</Name>
+              <Path>interfacebfg_login_controller.html</Path>
+              <Subnodes>
+              </Subnodes>
+             </Node>
+             <Node>
+              <Name>BFG_LOGIN_STATUS_CHANGE_KEY_ACTIVE_HMID</Name>
+              <Path>bfg_login_controller_8h.html</Path>
+              <Anchor>a7f813c3f3c109d043f98ba334bc9da75</Anchor>
+             </Node>
+             <Node>
+              <Name>BFG_LOGIN_STATUS_CHANGE_KEY_PREVIOUS_HMID</Name>
+              <Path>bfg_login_controller_8h.html</Path>
+              <Anchor>ad2057d7e275ef378fd2e8c4f8c7ae9cd</Anchor>
+             </Node>
+             <Node>
+              <Name>BFG_NOTIFICATION_LOGIN_CLOSED</Name>
+              <Path>bfg_login_controller_8h.html</Path>
+              <Anchor>a57c980899db3bb4b87bda85c18bfc335</Anchor>
+             </Node>
+             <Node>
+              <Name>BFG_NOTIFICATION_LOGIN_OPENED</Name>
+              <Path>bfg_login_controller_8h.html</Path>
+              <Anchor>a43020221b800e521ccd90b141530008a</Anchor>
+             </Node>
+             <Node>
+              <Name>BFG_NOTIFICATION_LOGIN_STATUS_CHANGE</Name>
+              <Path>bfg_login_controller_8h.html</Path>
+              <Anchor>a86786a8334c1a26209957a86b717b906</Anchor>
+             </Node>
+            </Subnodes>
+           </Node>
+           <Node>
+            <Name>bfgMailController.h</Name>
+            <Path>bfg_mail_controller_8h.html</Path>
+            <Subnodes>
+             <Node>
+              <Name>bfgMailController</Name>
+              <Path>interfacebfg_mail_controller.html</Path>
+              <Subnodes>
+               <Node>
+                <Name>initWithViewController:completionNotification:</Name>
+                <Path>interfacebfg_mail_controller.html</Path>
+                <Anchor>a6863581921b5ee8b8cbc026a246bb6b5</Anchor>
+               </Node>
+               <Node>
+                <Name>presentEmailWithImage:emailAddress:subject:body:reporting:</Name>
+                <Path>interfacebfg_mail_controller.html</Path>
+                <Anchor>a93c9bc8c211f06142aeace8872c81bea</Anchor>
+               </Node>
+              </Subnodes>
+             </Node>
+            </Subnodes>
+           </Node>
+           <Node>
+            <Name>bfgManager.h</Name>
+            <Path>bfg_manager_8h.html</Path>
+            <Subnodes>
+             <Node>
+              <Name>bfgManager</Name>
+              <Path>interfacebfg_manager.html</Path>
+              <Subnodes>
+              </Subnodes>
+             </Node>
+             <Node>
+              <Name>BFG_NOTIFICATION_STARTUP_SETTINGS_UPDATED</Name>
+              <Path>bfg_manager_8h.html</Path>
+              <Anchor>a25a0b187011865c8629ee2daffe64ce2</Anchor>
+             </Node>
+             <Node>
+              <Name>BFG_NOTIFICATION_TELLAFRIEND_MAILCOMPLETED</Name>
+              <Path>bfg_manager_8h.html</Path>
+              <Anchor>a662018456417fec93d0b8a63feeace00</Anchor>
+             </Node>
+             <Node>
+              <Name>BFGPROMODASHBOARD_NOTIFICATION_COLDSTART</Name>
+              <Path>bfg_manager_8h.html</Path>
+              <Anchor>aa4973762069524d7175329bfa38b9fd1</Anchor>
+             </Node>
+             <Node>
+              <Name>BFGPROMODASHBOARD_NOTIFICATION_MAINMENU</Name>
+              <Path>bfg_manager_8h.html</Path>
+              <Anchor>ab1124a3783ef12de91333c8f44d9522f</Anchor>
+             </Node>
+             <Node>
+              <Name>BFGPROMODASHBOARD_NOTIFICATION_MOREGAMES_CLOSED</Name>
+              <Path>bfg_manager_8h.html</Path>
+              <Anchor>a3fb544a74ae44ac60c80fb92d07cb226</Anchor>
+             </Node>
+             <Node>
+              <Name>BFGPROMODASHBOARD_NOTIFICATION_WARMSTART</Name>
+              <Path>bfg_manager_8h.html</Path>
+              <Anchor>a8f2f3fb016f22326b7d5806c6b239730</Anchor>
+             </Node>
+             <Node>
+              <Name>BFGDASH_UI_TYPE</Name>
+              <Path>bfg_manager_8h.html</Path>
+              <Anchor>af8f6ce9a932ad0ebcf19178624bab96a</Anchor>
+              <Subnodes>
+               <Node>
+                <Name>BFGDASH_UI_TYPE_NONE</Name>
+                <Path>bfg_manager_8h.html</Path>
+                <Anchor>af8f6ce9a932ad0ebcf19178624bab96aa478daedba5e803d40556850d7aa3dc60</Anchor>
+               </Node>
+               <Node>
+                <Name>BFGDASH_UI_TYPE_DASHFULL</Name>
+                <Path>bfg_manager_8h.html</Path>
+                <Anchor>af8f6ce9a932ad0ebcf19178624bab96aad80f8efeff7ba778b63850de0cb51dae</Anchor>
+               </Node>
+               <Node>
+                <Name>BFGDASH_UI_TYPE_DASHWIN</Name>
+                <Path>bfg_manager_8h.html</Path>
+                <Anchor>af8f6ce9a932ad0ebcf19178624bab96aa93c7ec63592d2b53dd875bf1b3e0f067</Anchor>
+               </Node>
+               <Node>
+                <Name>BFGDASH_UI_TYPE_MOREGAMES</Name>
+                <Path>bfg_manager_8h.html</Path>
+                <Anchor>af8f6ce9a932ad0ebcf19178624bab96aaf9c60809637cd78806ab1898c6982bf5</Anchor>
+               </Node>
+              </Subnodes>
+             </Node>
+            </Subnodes>
+           </Node>
+           <Node>
+            <Name>bfgNetwork.h</Name>
+            <Path>bfg_network_8h.html</Path>
+            <Subnodes>
+             <Node>
+              <Name>bfgNetwork</Name>
+              <Path>interfacebfg_network.html</Path>
+              <Subnodes>
+               <Node>
+                <Name>addRemoteHost:</Name>
+                <Path>interfacebfg_network.html</Path>
+                <Anchor>a4fe24337472c655177deefa5cd97536e</Anchor>
+               </Node>
+               <Node>
+                <Name>isHostReachable:</Name>
+                <Path>interfacebfg_network.html</Path>
+                <Anchor>a49128a9e6fdf3578409275347a6f6eb9</Anchor>
+               </Node>
+               <Node>
+                <Name>isReachable</Name>
+                <Path>interfacebfg_network.html</Path>
+                <Anchor>a6afe47a3873552c80922c88c76354ff1</Anchor>
+               </Node>
+               <Node>
+                <Name>isWIFI</Name>
+                <Path>interfacebfg_network.html</Path>
+                <Anchor>ae54fb566003b685a746bf0dd3c3abd0e</Anchor>
+               </Node>
+              </Subnodes>
+             </Node>
+             <Node>
+              <Name>BFG_NETWORK_DICTIONARY_CURRENT_STATUS</Name>
+              <Path>bfg_network_8h.html</Path>
+              <Anchor>a718529b1998fd878f2c926f752950608</Anchor>
+             </Node>
+             <Node>
+              <Name>BFG_NETWORK_DICTIONARY_PREVIOUS_STATUS</Name>
+              <Path>bfg_network_8h.html</Path>
+              <Anchor>a67fab3a057a852cb2662785be66c82e6</Anchor>
+             </Node>
+             <Node>
+              <Name>BFGNETWORK_NOTIFICATION_STATUS_UPDATED</Name>
+              <Path>bfg_network_8h.html</Path>
+              <Anchor>a82727e756172f75a9b29aae18f98b1ae</Anchor>
+             </Node>
+             <Node>
+              <Name>bfgNetworkStatus</Name>
+              <Path>bfg_network_8h.html</Path>
+              <Anchor>ac93784ea982eaf8cc2df53fcb211b316</Anchor>
+              <Subnodes>
+               <Node>
+                <Name>bfgNetworkNotReachable</Name>
+                <Path>bfg_network_8h.html</Path>
+                <Anchor>ac93784ea982eaf8cc2df53fcb211b316a35369ca03a0fd8513ed0b3b8e21f53b5</Anchor>
+               </Node>
+               <Node>
+                <Name>bfgNetworkReachableViaWiFi</Name>
+                <Path>bfg_network_8h.html</Path>
+                <Anchor>ac93784ea982eaf8cc2df53fcb211b316a7bf5eb14a7d2b1cdb1e10189eb23aab8</Anchor>
+               </Node>
+               <Node>
+                <Name>bfgNetworkReachableViaWWAN</Name>
+                <Path>bfg_network_8h.html</Path>
+                <Anchor>ac93784ea982eaf8cc2df53fcb211b316a1b3d2a8e755e3a79c065e9c22519574d</Anchor>
+               </Node>
+              </Subnodes>
+             </Node>
+            </Subnodes>
+           </Node>
+           <Node>
+            <Name>bfgPurchase.h</Name>
+            <Path>bfg_purchase_8h.html</Path>
+            <Subnodes>
+             <Node>
+              <Name>bfgPurchase</Name>
+              <Path>interfacebfg_purchase.html</Path>
+              <Subnodes>
+              </Subnodes>
+             </Node>
+             <Node>
+              <Name>BFG_ACQUIRE_PRODUCT_INFO_FAILURES_USER_INFO_KEY</Name>
+              <Path>bfg_purchase_8h.html</Path>
+              <Anchor>acab31a0046963a0d7b385f51ae0376b7</Anchor>
+             </Node>
+             <Node>
+              <Name>BFG_ACQUIRE_PRODUCT_INFO_SUCCESSES_USER_INFO_KEY</Name>
+              <Path>bfg_purchase_8h.html</Path>
+              <Anchor>a7167f7fea313856e632d894d6bc14adf</Anchor>
+             </Node>
+             <Node>
+              <Name>BFG_PRODUCT_ID_USER_INFO_KEY</Name>
+              <Path>bfg_purchase_8h.html</Path>
+              <Anchor>afe046ca16ba40852e8303fc808cd0eab</Anchor>
+             </Node>
+             <Node>
+              <Name>BFG_PURCHASE_OBJECT_USER_INFO_KEY</Name>
+              <Path>bfg_purchase_8h.html</Path>
+              <Anchor>a754bb6a9980b0e6e78685c6fd2e17cab</Anchor>
+             </Node>
+             <Node>
+              <Name>MAX_PRODUCT_INFO_BYTES</Name>
+              <Path>bfg_purchase_8h.html</Path>
+              <Anchor>a44a2cab7d6b19fd0c7a5707f5d9c43de</Anchor>
+             </Node>
+             <Node>
+              <Name>NOTIFICATION_FINISH_PURCHASE_COMPLETE</Name>
+              <Path>bfg_purchase_8h.html</Path>
+              <Anchor>a94af024866b53ee946812a37345c205a</Anchor>
+             </Node>
+             <Node>
+              <Name>NOTIFICATION_PURCHASE_FAILED</Name>
+              <Path>bfg_purchase_8h.html</Path>
+              <Anchor>a166f99b6c7dc52435dc2da60e545cac5</Anchor>
+             </Node>
+             <Node>
+              <Name>NOTIFICATION_PURCHASE_PRODUCTINFORMATION</Name>
+              <Path>bfg_purchase_8h.html</Path>
+              <Anchor>ad88b135211ddda91b8dba29e2037be15</Anchor>
+             </Node>
+             <Node>
+              <Name>NOTIFICATION_PURCHASE_SUCCEEDED</Name>
+              <Path>bfg_purchase_8h.html</Path>
+              <Anchor>a122296918454fac68c7258ce6c40d7a2</Anchor>
+             </Node>
+             <Node>
+              <Name>NOTIFICATION_RESTORE_FAILED</Name>
+              <Path>bfg_purchase_8h.html</Path>
+              <Anchor>adaf19c7846031eb9021365a4bfdf454c</Anchor>
+             </Node>
+             <Node>
+              <Name>NOTIFICATION_RESTORE_SUCCEEDED</Name>
+              <Path>bfg_purchase_8h.html</Path>
+              <Anchor>af4c4d831ed5cc9dfe39e99450af204c5</Anchor>
+             </Node>
+            </Subnodes>
+           </Node>
+           <Node>
+            <Name>bfgPurchaseObject.h</Name>
+            <Path>bfg_purchase_object_8h.html</Path>
+            <Subnodes>
+             <Node>
+              <Name>bfgPurchaseObject</Name>
+              <Path>interfacebfg_purchase_object.html</Path>
+              <Subnodes>
+               <Node>
+                <Name>isEqualToPurchaseObject:</Name>
+                <Path>interfacebfg_purchase_object.html</Path>
+                <Anchor>abffc2f2f8ca3851dee96a8737eab064a</Anchor>
+               </Node>
+               <Node>
+                <Name>productId</Name>
+                <Path>interfacebfg_purchase_object.html</Path>
+                <Anchor>ad6d1f2e4747ccc172e5ac58820ccdb83</Anchor>
+               </Node>
+               <Node>
+                <Name>canceled</Name>
+                <Path>interfacebfg_purchase_object.html</Path>
+                <Anchor>ab174ddb7c4bcb95b4c420bb5dbbe06e7</Anchor>
+               </Node>
+               <Node>
+                <Name>error</Name>
+                <Path>interfacebfg_purchase_object.html</Path>
+                <Anchor>a0cd89b4669fcb90610420686eab40b99</Anchor>
+               </Node>
+               <Node>
+                <Name>paymentTransaction</Name>
+                <Path>interfacebfg_purchase_object.html</Path>
+                <Anchor>aef46953547a81a3cfc6bc1b7d553b3fe</Anchor>
+               </Node>
+               <Node>
+                <Name>productInfo</Name>
+                <Path>interfacebfg_purchase_object.html</Path>
+                <Anchor>a466391bf429740b2b6875e347aeb6551</Anchor>
+               </Node>
+               <Node>
+                <Name>purchaseStart</Name>
+                <Path>interfacebfg_purchase_object.html</Path>
+                <Anchor>a9e6a94edc273259707d9f1cd2b2fcf7f</Anchor>
+               </Node>
+               <Node>
+                <Name>quantity</Name>
+                <Path>interfacebfg_purchase_object.html</Path>
+                <Anchor>ae9a01fafdcd4cddcb6623519655015e9</Anchor>
+               </Node>
+               <Node>
+                <Name>restore</Name>
+                <Path>interfacebfg_purchase_object.html</Path>
+                <Anchor>ae3ed50948465b72f1ea3eb41ab0eaecc</Anchor>
+               </Node>
+               <Node>
+                <Name>sandbox</Name>
+                <Path>interfacebfg_purchase_object.html</Path>
+                <Anchor>aa8273c64264288297b53031aeabe00be</Anchor>
+               </Node>
+               <Node>
+                <Name>success</Name>
+                <Path>interfacebfg_purchase_object.html</Path>
+                <Anchor>a75eeec4b6ee86ae35e2077a0b5f549cb</Anchor>
+               </Node>
+              </Subnodes>
+             </Node>
+             <Node>
+              <Name>PRODUCT_INFO_PRICE</Name>
+              <Path>bfg_purchase_object_8h.html</Path>
+              <Anchor>a441e88fdda3f0eba1b33ed818313c09e</Anchor>
+             </Node>
+             <Node>
+              <Name>PRODUCT_INFO_PRICE_STR</Name>
+              <Path>bfg_purchase_object_8h.html</Path>
+              <Anchor>ab8933abe80e30804bd03fa6c13bfc6f6</Anchor>
+             </Node>
+            </Subnodes>
+           </Node>
+           <Node>
+            <Name>bfgPushNotificationManager.h</Name>
+            <Path>bfg_push_notification_manager_8h.html</Path>
+            <Subnodes>
+             <Node>
+              <Name>bfgPushNotificationManager</Name>
+              <Path>interfacebfg_push_notification_manager.html</Path>
+              <Subnodes>
+              </Subnodes>
+             </Node>
+            </Subnodes>
+           </Node>
+           <Node>
+            <Name>bfgRating.h</Name>
+            <Path>bfg_rating_8h.html</Path>
+            <Subnodes>
+             <Node>
+              <Name>bfgRating</Name>
+              <Path>interfacebfg_rating.html</Path>
+              <Subnodes>
+              </Subnodes>
+             </Node>
+             <Node>
+              <Name>BFGRATING_NOTIFICATION_RATING_ALERT_CLOSED</Name>
+              <Path>bfg_rating_8h.html</Path>
+              <Anchor>ad8b6a3eec956eb1d43019deb685a9c8e</Anchor>
+             </Node>
+             <Node>
+              <Name>BFGRATING_NOTIFICATION_RATING_ALERT_OPENED</Name>
+              <Path>bfg_rating_8h.html</Path>
+              <Anchor>a550db0e147746a85c6bfda79ead24b78</Anchor>
+             </Node>
+            </Subnodes>
+           </Node>
+           <Node>
+            <Name>bfgReporting.h</Name>
+            <Path>bfg_reporting_8h.html</Path>
+            <Subnodes>
+             <Node>
+              <Name>bfgReporting</Name>
+              <Path>interfacebfg_reporting.html</Path>
+              <Subnodes>
+              </Subnodes>
+             </Node>
+             <Node>
+              <Name>BFGReportingEventiSplashShown</Name>
+              <Path>bfg_reporting_8h.html</Path>
+              <Anchor>a00fdfff7775d2576cdb4a03c022eafea</Anchor>
+             </Node>
+            </Subnodes>
+           </Node>
+           <Node>
+            <Name>bfgsettings.h</Name>
+            <Path>bfgsettings_8h.html</Path>
+            <Subnodes>
+             <Node>
+              <Name>bfgSettings</Name>
+              <Path>interfacebfg_settings.html</Path>
+              <Subnodes>
+              </Subnodes>
+             </Node>
+             <Node>
+              <Name>NOTIFICATION_BFGSETTING_CHANGED</Name>
+              <Path>bfgsettings_8h.html</Path>
+              <Anchor>abbaddbbe127c00966a7da48d2f6ed518</Anchor>
+             </Node>
+            </Subnodes>
+           </Node>
+           <Node>
+            <Name>bfgSplash.h</Name>
+            <Path>bfg_splash_8h.html</Path>
+            <Subnodes>
+             <Node>
+              <Name>bfgSplash</Name>
+              <Path>interfacebfg_splash.html</Path>
+              <Subnodes>
+              </Subnodes>
+             </Node>
+             <Node>
+              <Name>BFGSPLASH_NOTIFICATION_COMPLETED</Name>
+              <Path>bfg_splash_8h.html</Path>
+              <Anchor>a128708b81aed0a102a1649ede1bbf778</Anchor>
+             </Node>
+             <Node>
+              <Name>BFGSPLASH_NOTIFICATION_IMAGE_UPDATED</Name>
+              <Path>bfg_splash_8h.html</Path>
+              <Anchor>ac02a7b6bb9943758a8bfa7403e3e45d8</Anchor>
+             </Node>
+            </Subnodes>
+           </Node>
+           <Node>
+            <Name>bfgStrings.h</Name>
+            <Path>bfg_strings_8h.html</Path>
+            <Subnodes>
+             <Node>
+              <Name>bfgStrings</Name>
+              <Path>interfacebfg_strings.html</Path>
+              <Subnodes>
+              </Subnodes>
+             </Node>
+            </Subnodes>
+           </Node>
+           <Node>
+            <Name>bfgutils.h</Name>
+            <Path>bfgutils_8h.html</Path>
+            <Subnodes>
+             <Node>
+              <Name>bfgutils</Name>
+              <Path>interfacebfgutils.html</Path>
+              <Subnodes>
+              </Subnodes>
+             </Node>
+             <Node>
+              <Name>addToDictionaryIfTrue</Name>
+              <Path>bfgutils_8h.html</Path>
+              <Anchor>a74393a35921c052c4fc84847e9c08d5f</Anchor>
+             </Node>
+             <Node>
+              <Name>BFGLIB_NOTIFICATION_OPENLINKSHAREURL_ENDED</Name>
+              <Path>bfgutils_8h.html</Path>
+              <Anchor>a5fec77cae10572fada1d7e7cc8aba175</Anchor>
+             </Node>
+             <Node>
+              <Name>BFGLIB_NOTIFICATION_OPENLINKSHAREURL_LONGDELAY</Name>
+              <Path>bfgutils_8h.html</Path>
+              <Anchor>aa0cc5047727cb85630123547b1a254e5</Anchor>
+             </Node>
+             <Node>
+              <Name>BFGLIB_NOTIFICATION_OPENLINKSHAREURL_STARTED</Name>
+              <Path>bfgutils_8h.html</Path>
+              <Anchor>a8f19278df7d9bb96b8e66283035fb929</Anchor>
+             </Node>
+             <Node>
+              <Name>BFGUDID_UNDEFINED</Name>
+              <Path>bfgutils_8h.html</Path>
+              <Anchor>ad95e2e5cadf4fed82172d32efd659e01</Anchor>
+             </Node>
+             <Node>
+              <Name>IS_IOS6_AWARE</Name>
+              <Path>bfgutils_8h.html</Path>
+              <Anchor>a9a278620efd703ed8da3be83f3a56d7e</Anchor>
+             </Node>
+             <Node>
+              <Name>RGB_COMPONENTS</Name>
+              <Path>bfgutils_8h.html</Path>
+              <Anchor>a7941ac23ef4a0563db89da904d411fcd</Anchor>
+             </Node>
+             <Node>
+              <Name>dispatch_time_delay_from_milliseconds</Name>
+              <Path>bfgutils_8h.html</Path>
+              <Anchor>ae9ca727cf6e701cd50305ad74993946c</Anchor>
+             </Node>
+             <Node>
+              <Name>NSStringFromBOOL</Name>
+              <Path>bfgutils_8h.html</Path>
+              <Anchor>aeb84d484bd1fc48a295b5e8ca9a02866</Anchor>
+             </Node>
+            </Subnodes>
+           </Node>
+          </Subnodes>
+         </Node>
+        </Subnodes>
+       </Node>
+       <Node>
+        <Name>FAQ</Name>
+        <Path>_f_a_q.html</Path>
+       </Node>
+       <Node>
+        <Name>Release Notes</Name>
+        <Path>_whatsnew.html</Path>
+       </Node>
+       <Node>
+        <Name>Technical References</Name>
+        <Path>sdk_tech_ref.html</Path>
+        <Subnodes>
+         <Node>
+          <Name>SDK Overview</Name>
+          <Path>reference_overview.html</Path>
+          <Subnodes>
+           <Node>
+            <Name>The Big Fish iOS Software Development Kit</Name>
+            <Path>reference_overview.html</Path>
+            <Anchor>sdk_intro</Anchor>
+           </Node>
+           <Node>
+            <Name>SDK Resource Directories</Name>
+            <Path>reference_overview.html</Path>
+            <Anchor>sdk_directories</Anchor>
+           </Node>
+          </Subnodes>
+         </Node>
+         <Node>
+          <Name>Required Tools and Standards</Name>
+          <Path>standards.html</Path>
+          <Subnodes>
+           <Node>
+            <Name>Development Tools</Name>
+            <Path>standards.html</Path>
+            <Anchor>dev_tools</Anchor>
+            <Subnodes>
+             <Node>
+              <Name>Big Fish iOS Software Development Kit (Big Fish iOS SDK)</Name>
+              <Path>standards.html</Path>
+              <Anchor>bfg_iOS_kit</Anchor>
+             </Node>
+             <Node>
+              <Name>Third-party tools and libraries</Name>
+              <Path>standards.html</Path>
+              <Anchor>thirdPartyTools</Anchor>
+             </Node>
+             <Node>
+              <Name>Developer Resources FTP Site</Name>
+              <Path>standards.html</Path>
+              <Anchor>devResourcesFtpSite</Anchor>
+             </Node>
+            </Subnodes>
+           </Node>
+           <Node>
+            <Name>Coding Standards</Name>
+            <Path>standards.html</Path>
+            <Anchor>codingStandards</Anchor>
+           </Node>
+           <Node>
+            <Name>Device and Software Support</Name>
+            <Path>standards.html</Path>
+            <Anchor>deviceSWsupport</Anchor>
+           </Node>
+          </Subnodes>
+         </Node>
+         <Node>
+          <Name>Customizing Game-Specific Resources</Name>
+          <Path>reference_gamespecific.html</Path>
+          <Subnodes>
+           <Node>
+            <Name>Game Specific Resources Directory</Name>
+            <Path>reference_gamespecific.html</Path>
+            <Anchor>resources_directory</Anchor>
+           </Node>
+           <Node>
+            <Name>General Resources Requirements</Name>
+            <Path>reference_gamespecific.html</Path>
+            <Anchor>general_requirements</Anchor>
+            <Subnodes>
+             <Node>
+              <Name>Default settings</Name>
+              <Path>reference_gamespecific.html</Path>
+              <Anchor>default_settings</Anchor>
+              <Subnodes>
+               <Node>
+                <Name>Free-to-Play Kontagent API keys</Name>
+                <Path>reference_gamespecific.html</Path>
+                <Anchor>f2p_kontagent_API_keys</Anchor>
+               </Node>
+               <Node>
+                <Name>Supporting placements</Name>
+                <Path>reference_gamespecific.html</Path>
+                <Anchor>playhaven_secret_token</Anchor>
+               </Node>
+              </Subnodes>
+             </Node>
+             <Node>
+              <Name>Ad resources</Name>
+              <Path>reference_gamespecific.html</Path>
+              <Anchor>ad_resources</Anchor>
+             </Node>
+             <Node>
+              <Name>Branding resources</Name>
+              <Path>reference_gamespecific.html</Path>
+              <Anchor>branding_resources</Anchor>
+             </Node>
+             <Node>
+              <Name>Game Discovery Network resources</Name>
+              <Path>reference_gamespecific.html</Path>
+              <Anchor>gdn_resources</Anchor>
+              <Subnodes>
+               <Node>
+                <Name>Standard GDN UI resources</Name>
+                <Path>reference_gamespecific.html</Path>
+                <Anchor>gdn_standard_resources</Anchor>
+               </Node>
+               <Node>
+                <Name>iPhone GDN background</Name>
+                <Path>reference_gamespecific.html</Path>
+                <Anchor>gdn_background</Anchor>
+               </Node>
+              </Subnodes>
+             </Node>
+             <Node>
+              <Name>iSplash! Newsletter button resources</Name>
+              <Path>reference_gamespecific.html</Path>
+              <Anchor>isplash</Anchor>
+             </Node>
+            </Subnodes>
+           </Node>
+           <Node>
+            <Name>PlayHaven Push Notifications</Name>
+            <Path>reference_gamespecific.html</Path>
+            <Anchor>rgs_pushNotifications</Anchor>
+           </Node>
+           <Node>
+            <Name>COPPA Compliance</Name>
+            <Path>reference_gamespecific.html</Path>
+            <Anchor>rgs_COPPA</Anchor>
+           </Node>
+          </Subnodes>
+         </Node>
+         <Node>
+          <Name>SDK Feature Configuration Matrix</Name>
+          <Path>reference_sdk_feature_configurability.html</Path>
+          <Subnodes>
+           <Node>
+            <Name>SDK Features and Configurability</Name>
+            <Path>reference_sdk_feature_configurability.html</Path>
+            <Anchor>sdkFeatureConfig</Anchor>
+           </Node>
+          </Subnodes>
+         </Node>
+         <Node>
+          <Name>Classes and Components</Name>
+          <Path>reference_class.html</Path>
+          <Subnodes>
+           <Node>
+            <Name>Creating Game Components with Big Fish Classes</Name>
+            <Path>reference_class.html</Path>
+            <Anchor>bigFishComponents</Anchor>
+           </Node>
+           <Node>
+            <Name>bfgManager Components</Name>
+            <Path>reference_class.html</Path>
+            <Anchor>bfgManager_components</Anchor>
+            <Subnodes>
+             <Node>
+              <Name>bfgManager and the Game Discovery Network</Name>
+              <Path>reference_class.html</Path>
+              <Anchor>gdn_bfgManager</Anchor>
+             </Node>
+             <Node>
+              <Name>More Games - bfgManager showMoreGames</Name>
+              <Path>reference_class.html</Path>
+              <Anchor>more_games_bfgManager</Anchor>
+             </Node>
+             <Node>
+              <Name>Tell A Friend - bfgManager showTellAFriend</Name>
+              <Path>reference_class.html</Path>
+              <Anchor>tellafriend_bfgManager</Anchor>
+             </Node>
+             <Node>
+              <Name>Ads - bfgManager startAds/stopAds and bfgAdsController</Name>
+              <Path>reference_class.html</Path>
+              <Anchor>ads_bfgManager</Anchor>
+             </Node>
+             <Node>
+              <Name>Branding - bfgManager startBranding/stopBranding</Name>
+              <Path>reference_class.html</Path>
+              <Anchor>branding_bfgManager</Anchor>
+             </Node>
+             <Node>
+              <Name>Launching an in-game browser with bfgManager</Name>
+              <Path>reference_class.html</Path>
+              <Anchor>browser_bfgManager</Anchor>
+             </Node>
+             <Node>
+              <Name>COPPA child-directed settings</Name>
+              <Path>reference_class.html</Path>
+              <Anchor>rc_COPPA</Anchor>
+             </Node>
+             <Node>
+              <Name>bfgManager and the Options sub-menu</Name>
+              <Path>reference_class.html</Path>
+              <Anchor>rc_options_submenu_bfgManager</Anchor>
+             </Node>
+             <Node>
+              <Name>Tracking user IDs with bfgManager</Name>
+              <Path>reference_class.html</Path>
+              <Anchor>track_users_bfgManager</Anchor>
+             </Node>
+            </Subnodes>
+           </Node>
+           <Node>
+            <Name>Big Fish Login</Name>
+            <Path>reference_class.html</Path>
+            <Anchor>rc_bfgLogin</Anchor>
+            <Subnodes>
+             <Node>
+              <Name>Implementing Big Fish Login</Name>
+              <Path>reference_class.html</Path>
+              <Anchor>bfgLoginImplementation</Anchor>
+             </Node>
+            </Subnodes>
+           </Node>
+           <Node>
+            <Name>iSplash! Newsletter - bfgSplash</Name>
+            <Path>reference_class.html</Path>
+            <Anchor>rc_iSplash</Anchor>
+           </Node>
+           <Node>
+            <Name>Rating - bfgRating</Name>
+            <Path>reference_class.html</Path>
+            <Anchor>rc_bfgRating</Anchor>
+           </Node>
+           <Node>
+            <Name>Game Event Reporting - bfgGameReporting</Name>
+            <Path>reference_class.html</Path>
+            <Anchor>bfgEventReporting</Anchor>
+            <Subnodes>
+             <Node>
+              <Name>Strategy Guide Overlay Reporting</Name>
+              <Path>reference_class.html</Path>
+              <Anchor>strategyGuideOverlayReporting</Anchor>
+             </Node>
+            </Subnodes>
+           </Node>
+           <Node>
+            <Name>Supporting Placements</Name>
+            <Path>reference_class.html</Path>
+            <Anchor>placementContent</Anchor>
+            <Subnodes>
+             <Node>
+              <Name>Default placements</Name>
+              <Path>reference_class.html</Path>
+              <Anchor>placementDefaultPlacements</Anchor>
+             </Node>
+             <Node>
+              <Name>Custom placements</Name>
+              <Path>reference_class.html</Path>
+              <Anchor>placementsCustomPlacements</Anchor>
+             </Node>
+             <Node>
+              <Name>Notifications</Name>
+              <Path>reference_class.html</Path>
+              <Anchor>placementNotifications</Anchor>
+              <Subnodes>
+               <Node>
+                <Name>Webviews</Name>
+                <Path>reference_class.html</Path>
+                <Anchor>placementWebview</Anchor>
+               </Node>
+               <Node>
+                <Name>Rewards</Name>
+                <Path>reference_class.html</Path>
+                <Anchor>placementRewards</Anchor>
+               </Node>
+               <Node>
+                <Name>In-App Purchasing via Virtual Goods</Name>
+                <Path>reference_class.html</Path>
+                <Anchor>placementIAPvirtualGoods</Anchor>
+               </Node>
+              </Subnodes>
+             </Node>
+            </Subnodes>
+           </Node>
+           <Node>
+            <Name>Integrating PlayHaven push notifications</Name>
+            <Path>reference_class.html</Path>
+            <Anchor>rgs_integratePush</Anchor>
+            <Subnodes>
+             <Node>
+              <Name>bfgPushNotificationManager and the bfgPushNotificationManager class</Name>
+              <Path>reference_class.html</Path>
+              <Anchor>rgs_integratePushDelegates</Anchor>
+             </Node>
+             <Node>
+              <Name>Testing push notifications</Name>
+              <Path>reference_class.html</Path>
+              <Anchor>rgs_testPushNotifications</Anchor>
+              <Subnodes>
+               <Node>
+                <Name>Enabling push notifications</Name>
+                <Path>reference_class.html</Path>
+                <Anchor>rgs_enablePush</Anchor>
+               </Node>
+               <Node>
+                <Name>Installing the provisioning profile</Name>
+                <Path>reference_class.html</Path>
+                <Anchor>rgs_pushInstallProfile</Anchor>
+               </Node>
+              </Subnodes>
+             </Node>
+            </Subnodes>
+           </Node>
+           <Node>
+            <Name>In-App Purchase Support - bfgPurchase</Name>
+            <Path>reference_class.html</Path>
+            <Anchor>iapSupport</Anchor>
+           </Node>
+           <Node>
+            <Name>Utilities and Support Classes</Name>
+            <Path>reference_class.html</Path>
+            <Anchor>utilitiesSupportClasses</Anchor>
+            <Subnodes>
+             <Node>
+              <Name>bfgProfileManager</Name>
+              <Path>reference_class.html</Path>
+              <Anchor>bfgProfileManager</Anchor>
+             </Node>
+             <Node>
+              <Name>bfgSettings</Name>
+              <Path>reference_class.html</Path>
+              <Anchor>bfgSettings</Anchor>
+             </Node>
+             <Node>
+              <Name>bfgStrings</Name>
+              <Path>reference_class.html</Path>
+              <Anchor>bfgStrings</Anchor>
+             </Node>
+            </Subnodes>
+           </Node>
+           <Node>
+            <Name>The Big Fish Game App, Strategy Guides, and bfgAppManager</Name>
+            <Path>reference_class.html</Path>
+            <Anchor>AppManStrategyGuides</Anchor>
+            <Subnodes>
+             <Node>
+              <Name>isBigFishGamesAppInstalled</Name>
+              <Path>reference_class.html</Path>
+              <Anchor>AMSGInstalled</Anchor>
+             </Node>
+             <Node>
+              <Name>launchStoreWithApp</Name>
+              <Path>reference_class.html</Path>
+              <Anchor>AMSGlaunchStoreWithApp</Anchor>
+             </Node>
+             <Node>
+              <Name>launchBigFishGamesAppStrategyGuideWithWrappingID</Name>
+              <Path>reference_class.html</Path>
+              <Anchor>AMSGlaunchWrappingID</Anchor>
+             </Node>
+             <Node>
+              <Name>Calling a strategy guide with bfgManager</Name>
+              <Path>reference_class.html</Path>
+              <Anchor>strategyGuide_bfgManager</Anchor>
+             </Node>
+             <Node>
+              <Name>Strategy guides and customer referral URLs</Name>
+              <Path>reference_class.html</Path>
+              <Anchor>AMSGreferralUrl</Anchor>
+             </Node>
+             <Node>
+              <Name>Strategy Guide Reporting</Name>
+              <Path>reference_class.html</Path>
+              <Anchor>bfgAppStraGuidesReporting</Anchor>
+             </Node>
+            </Subnodes>
+           </Node>
+          </Subnodes>
+         </Node>
+         <Node>
+          <Name>Testing In-App Purchases</Name>
+          <Path>iap_dummy_app_test.html</Path>
+         </Node>
+         <Node>
+          <Name>Debugging with the SDK</Name>
+          <Path>_d_e_b_u_g.html</Path>
+         </Node>
+         <Node>
+          <Name>Big Fish Games Mobile QA Overview</Name>
+          <Path>qa_testing.html</Path>
+          <Subnodes>
+           <Node>
+            <Name>Mobile App Testing</Name>
+            <Path>qa_testing.html</Path>
+            <Anchor>qa_phases</Anchor>
+            <Subnodes>
+             <Node>
+              <Name>Beta Check</Name>
+              <Path>qa_testing.html</Path>
+              <Anchor>qa_beta</Anchor>
+             </Node>
+             <Node>
+              <Name>General Test Pass</Name>
+              <Path>qa_testing.html</Path>
+              <Anchor>qa_generalPass</Anchor>
+             </Node>
+             <Node>
+              <Name>Device Check</Name>
+              <Path>qa_testing.html</Path>
+              <Anchor>qa_deviceCheck</Anchor>
+             </Node>
+             <Node>
+              <Name>Playthrough (with no skip)</Name>
+              <Path>qa_testing.html</Path>
+              <Anchor>qa_playthrough</Anchor>
+             </Node>
+             <Node>
+              <Name>Achievement Pass</Name>
+              <Path>qa_testing.html</Path>
+              <Anchor>qa_achievement</Anchor>
+             </Node>
+             <Node>
+              <Name>Strategy Guide Pass</Name>
+              <Path>qa_testing.html</Path>
+              <Anchor>qa_strategy</Anchor>
+             </Node>
+             <Node>
+              <Name>Memory Test</Name>
+              <Path>qa_testing.html</Path>
+              <Anchor>qa_memory</Anchor>
+             </Node>
+             <Node>
+              <Name>Final Test Pass</Name>
+              <Path>qa_testing.html</Path>
+              <Anchor>qa_final</Anchor>
+             </Node>
+             <Node>
+              <Name>Design Pass</Name>
+              <Path>qa_testing.html</Path>
+              <Anchor>qa_design</Anchor>
+             </Node>
+             <Node>
+              <Name>Updates</Name>
+              <Path>qa_testing.html</Path>
+              <Anchor>qa_updates</Anchor>
+             </Node>
+            </Subnodes>
+           </Node>
+           <Node>
+            <Name>Mobile Localization QA</Name>
+            <Path>qa_testing.html</Path>
+            <Anchor>qa_locs</Anchor>
+            <Subnodes>
+             <Node>
+              <Name>Mobile LQA phases</Name>
+              <Path>qa_testing.html</Path>
+              <Anchor>qa_mlqa_phases</Anchor>
+              <Subnodes>
+               <Node>
+                <Name>Phase 1</Name>
+                <Path>qa_testing.html</Path>
+                <Anchor>qa_mlqa_phase_1</Anchor>
+               </Node>
+               <Node>
+                <Name>Phase 2</Name>
+                <Path>qa_testing.html</Path>
+                <Anchor>qa_mlqa_phase_2</Anchor>
+               </Node>
+               <Node>
+                <Name>Phase 3</Name>
+                <Path>qa_testing.html</Path>
+                <Anchor>qa_mlqa_phase_3</Anchor>
+               </Node>
+              </Subnodes>
+             </Node>
+             <Node>
+              <Name>How can developers help speed up Mobile LQA testing?</Name>
+              <Path>qa_testing.html</Path>
+              <Anchor>qa_speedUpMLQATesting</Anchor>
+             </Node>
+            </Subnodes>
+           </Node>
+          </Subnodes>
+         </Node>
+        </Subnodes>
+       </Node>
+       <Node>
+        <Name>Freemium Game Development</Name>
+        <Path>freemium_doc_index.html</Path>
+        <Subnodes>
+         <Node>
+          <Name>Freemium Games Overview</Name>
+          <Path>_freemium.html</Path>
+          <Subnodes>
+           <Node>
+            <Name>What Is Freemium?</Name>
+            <Path>_freemium.html</Path>
+            <Anchor>what_is_freemium</Anchor>
+           </Node>
+           <Node>
+            <Name>Required Freemium Features</Name>
+            <Path>_freemium.html</Path>
+            <Anchor>required_freemium_features</Anchor>
+            <Subnodes>
+             <Node>
+              <Name>Game Promotion</Name>
+              <Path>_freemium.html</Path>
+              <Anchor>gamePromotion</Anchor>
+             </Node>
+             <Node>
+              <Name>Additional Features</Name>
+              <Path>_freemium.html</Path>
+              <Anchor>additionalFeatures</Anchor>
+             </Node>
+            </Subnodes>
+           </Node>
+          </Subnodes>
+         </Node>
+         <Node>
+          <Name>Freemium Main Menu Best Practices</Name>
+          <Path>main_menu.html</Path>
+          <Subnodes>
+           <Node>
+            <Name>Main Menu Design</Name>
+            <Path>main_menu.html</Path>
+            <Anchor>mm_intro</Anchor>
+            <Subnodes>
+             <Node>
+              <Name>Quality art and UI elements</Name>
+              <Path>main_menu.html</Path>
+              <Anchor>mm_UI_elements</Anchor>
+             </Node>
+             <Node>
+              <Name>Effective designs</Name>
+              <Path>main_menu.html</Path>
+              <Anchor>mm_effective_designs</Anchor>
+             </Node>
+             <Node>
+              <Name>Movement on the Main Menu</Name>
+              <Path>main_menu.html</Path>
+              <Anchor>mm_movement</Anchor>
+             </Node>
+            </Subnodes>
+           </Node>
+           <Node>
+            <Name>Main Menu Elements</Name>
+            <Path>main_menu.html</Path>
+            <Anchor>mm_layout</Anchor>
+            <Subnodes>
+             <Node>
+              <Name>Game Discovery Network</Name>
+              <Path>main_menu.html</Path>
+              <Anchor>GDN</Anchor>
+             </Node>
+             <Node>
+              <Name>Big Fish ad integration</Name>
+              <Path>main_menu.html</Path>
+              <Anchor>mm_ads</Anchor>
+             </Node>
+             <Node>
+              <Name>Unlock Now! button</Name>
+              <Path>main_menu.html</Path>
+              <Anchor>mm_unlock</Anchor>
+             </Node>
+             <Node>
+              <Name>Play button</Name>
+              <Path>main_menu.html</Path>
+              <Anchor>mm_play</Anchor>
+             </Node>
+             <Node>
+              <Name>Sign In button</Name>
+              <Path>main_menu.html</Path>
+              <Anchor>mm_Login</Anchor>
+             </Node>
+             <Node>
+              <Name>Rating buttons</Name>
+              <Path>main_menu.html</Path>
+              <Anchor>mm_rating</Anchor>
+              <Subnodes>
+               <Node>
+                <Name>bfg_default_settings.json ratings settings</Name>
+                <Path>main_menu.html</Path>
+                <Anchor>ratings_json</Anchor>
+               </Node>
+               <Node>
+                <Name>Main Menu rating prompt</Name>
+                <Path>main_menu.html</Path>
+                <Anchor>Main_menu_rating</Anchor>
+               </Node>
+               <Node>
+                <Name>In-game rating prompt</Name>
+                <Path>main_menu.html</Path>
+                <Anchor>In_game_rating</Anchor>
+               </Node>
+               <Node>
+                <Name>Like [Game Title]? pop-up</Name>
+                <Path>main_menu.html</Path>
+                <Anchor>mm_enjoying</Anchor>
+               </Node>
+               <Node>
+                <Name>Sneak Peek pop-up</Name>
+                <Path>main_menu.html</Path>
+                <Anchor>mm_popup</Anchor>
+               </Node>
+              </Subnodes>
+             </Node>
+             <Node>
+              <Name>Collector&apos;s Edition Bonus/Extras button</Name>
+              <Path>main_menu.html</Path>
+              <Anchor>mm_ce</Anchor>
+             </Node>
+             <Node>
+              <Name>More Games button</Name>
+              <Path>main_menu.html</Path>
+              <Anchor>mm_more_games</Anchor>
+             </Node>
+             <Node>
+              <Name>iSplash! Newsletter button</Name>
+              <Path>main_menu.html</Path>
+              <Anchor>mm_isplash</Anchor>
+             </Node>
+            </Subnodes>
+           </Node>
+           <Node>
+            <Name>Options sub-menu</Name>
+            <Path>main_menu.html</Path>
+            <Anchor>mm_options</Anchor>
+            <Subnodes>
+             <Node>
+              <Name>Support button</Name>
+              <Path>main_menu.html</Path>
+              <Anchor>mm_support</Anchor>
+             </Node>
+             <Node>
+              <Name>Privacy Policy button</Name>
+              <Path>main_menu.html</Path>
+              <Anchor>mm_privacy_policy</Anchor>
+             </Node>
+             <Node>
+              <Name>Terms of Use button</Name>
+              <Path>main_menu.html</Path>
+              <Anchor>mm_terms_use</Anchor>
+             </Node>
+             <Node>
+              <Name>Copyright and legal text</Name>
+              <Path>main_menu.html</Path>
+              <Anchor>mm_copyright_legal</Anchor>
+             </Node>
+             <Node>
+              <Name>Credits</Name>
+              <Path>main_menu.html</Path>
+              <Anchor>mm_credits</Anchor>
+             </Node>
+             <Node>
+              <Name>Sound sliders</Name>
+              <Path>main_menu.html</Path>
+              <Anchor>mm_sliders</Anchor>
+             </Node>
+             <Node>
+              <Name>Tell A Friend button</Name>
+              <Path>main_menu.html</Path>
+              <Anchor>mm_tell_a_friend</Anchor>
+             </Node>
+            </Subnodes>
+           </Node>
+          </Subnodes>
+         </Node>
+         <Node>
+          <Name>Freemium Game Flow on Launch</Name>
+          <Path>game_flow.html</Path>
+          <Subnodes>
+           <Node>
+            <Name>The Big Fish iOS SDK and iOS Game Flow on Launch</Name>
+            <Path>game_flow.html</Path>
+            <Anchor>gameflow</Anchor>
+            <Subnodes>
+             <Node>
+              <Name>Springboard</Name>
+              <Path>game_flow.html</Path>
+              <Anchor>homeScreen</Anchor>
+             </Node>
+             <Node>
+              <Name>Default blue watermark</Name>
+              <Path>game_flow.html</Path>
+              <Anchor>watermark</Anchor>
+             </Node>
+             <Node>
+              <Name>Game Discovery Network</Name>
+              <Path>game_flow.html</Path>
+              <Anchor>GDNpromoDashboard</Anchor>
+             </Node>
+             <Node>
+              <Name>Big Fish branding</Name>
+              <Path>game_flow.html</Path>
+              <Anchor>bfgBranding</Anchor>
+             </Node>
+             <Node>
+              <Name>Developer branding splash screen</Name>
+              <Path>game_flow.html</Path>
+              <Anchor>devScreen</Anchor>
+             </Node>
+             <Node>
+              <Name>Game loading</Name>
+              <Path>game_flow.html</Path>
+              <Anchor>gameLoading</Anchor>
+             </Node>
+             <Node>
+              <Name>Create new profile</Name>
+              <Path>game_flow.html</Path>
+              <Anchor>createNewProfile</Anchor>
+             </Node>
+             <Node>
+              <Name>Main Menu</Name>
+              <Path>game_flow.html</Path>
+              <Anchor>gameEntry</Anchor>
+             </Node>
+             <Node>
+              <Name>First game screen</Name>
+              <Path>game_flow.html</Path>
+              <Anchor>firstGameScreen</Anchor>
+             </Node>
+            </Subnodes>
+           </Node>
+          </Subnodes>
+         </Node>
+         <Node>
+          <Name>Fremium Buy Wall Best Practices</Name>
+          <Path>buy_wall.html</Path>
+          <Subnodes>
+           <Node>
+            <Name>Creating an Effective Buy Wall</Name>
+            <Path>buy_wall.html</Path>
+            <Anchor>BW_Introduction</Anchor>
+            <Subnodes>
+             <Node>
+              <Name>The Unlock Now! button on the Buy Wall</Name>
+              <Path>buy_wall.html</Path>
+              <Anchor>Unlock_on_Buy_Wall</Anchor>
+             </Node>
+             <Node>
+              <Name>Unlock Now! button location</Name>
+              <Path>buy_wall.html</Path>
+              <Anchor>Unlock_location</Anchor>
+             </Node>
+             <Node>
+              <Name>Unlock Now! button hit box</Name>
+              <Path>buy_wall.html</Path>
+              <Anchor>Unlock_hit_box</Anchor>
+             </Node>
+             <Node>
+              <Name>Unlock Now! button formatting</Name>
+              <Path>buy_wall.html</Path>
+              <Anchor>Unlock_formatting</Anchor>
+             </Node>
+             <Node>
+              <Name>Selling the game</Name>
+              <Path>buy_wall.html</Path>
+              <Anchor>Sell_the_game</Anchor>
+             </Node>
+             <Node>
+              <Name>Tappable text: Already purchased?</Name>
+              <Path>buy_wall.html</Path>
+              <Anchor>already_purchased</Anchor>
+             </Node>
+             <Node>
+              <Name>Close control functionality</Name>
+              <Path>buy_wall.html</Path>
+              <Anchor>Close</Anchor>
+             </Node>
+             <Node>
+              <Name>Buy Wall timing</Name>
+              <Path>buy_wall.html</Path>
+              <Anchor>Timing</Anchor>
+             </Node>
+             <Node>
+              <Name>Buy Wall In-App Purchase process</Name>
+              <Path>buy_wall.html</Path>
+              <Anchor>Buywall_IAP</Anchor>
+             </Node>
+             <Node>
+              <Name>iTunes Connect</Name>
+              <Path>buy_wall.html</Path>
+              <Anchor>itunes</Anchor>
+             </Node>
+             <Node>
+              <Name>Buy Wall examples</Name>
+              <Path>buy_wall.html</Path>
+              <Anchor>Unlock_examples</Anchor>
+             </Node>
+            </Subnodes>
+           </Node>
+          </Subnodes>
+         </Node>
+         <Node>
+          <Name>Making Freemium In-App Purchases</Name>
+          <Path>freemium_purchase.html</Path>
+          <Subnodes>
+           <Node>
+            <Name>Making In-App Purchases with the Big Fish iOS SDK</Name>
+            <Path>freemium_purchase.html</Path>
+            <Anchor>making_in-app_purchases</Anchor>
+           </Node>
+           <Node>
+            <Name>Implementing In-App Purchases into Your Game</Name>
+            <Path>freemium_purchase.html</Path>
+            <Anchor>iapFreemiumImplement</Anchor>
+            <Subnodes>
+             <Node>
+              <Name>Step 1: Add the HBI value and remove the default productID</Name>
+              <Path>freemium_purchase.html</Path>
+              <Anchor>freemiumIAPstep1</Anchor>
+             </Node>
+             <Node>
+              <Name>Step 2: Listen for bfgPurchase notifications</Name>
+              <Path>freemium_purchase.html</Path>
+              <Anchor>freemiumIAPstep2</Anchor>
+             </Node>
+             <Node>
+              <Name>Step 3: Initiate purchase</Name>
+              <Path>freemium_purchase.html</Path>
+              <Anchor>freemiumIAPstep3</Anchor>
+             </Node>
+             <Node>
+              <Name>Step 4: acquireProductInformation</Name>
+              <Path>freemium_purchase.html</Path>
+              <Anchor>freemiumIAPstep4</Anchor>
+             </Node>
+             <Node>
+              <Name>Step 5: canStartPurchase (Optional)</Name>
+              <Path>freemium_purchase.html</Path>
+              <Anchor>freemiumIAPstep5</Anchor>
+             </Node>
+             <Node>
+              <Name>Step 6: startPurchase</Name>
+              <Path>freemium_purchase.html</Path>
+              <Anchor>freemiumIAPstep6</Anchor>
+              <Subnodes>
+               <Node>
+                <Name>In-App Purchasing via placements</Name>
+                <Path>freemium_purchase.html</Path>
+                <Anchor>freemiumIAPviaPlacements</Anchor>
+               </Node>
+              </Subnodes>
+             </Node>
+             <Node>
+              <Name>bfgPurchaseObject canceled field</Name>
+              <Path>freemium_purchase.html</Path>
+              <Anchor>cancel_bfgPurchaseObject</Anchor>
+             </Node>
+             <Node>
+              <Name>Step 7: finishPurchase</Name>
+              <Path>freemium_purchase.html</Path>
+              <Anchor>freemiumIAPstep8</Anchor>
+             </Node>
+            </Subnodes>
+           </Node>
+           <Node>
+            <Name>Buy Wall Transaction Events</Name>
+            <Path>freemium_purchase.html</Path>
+            <Anchor>freemiumBuyWallTransactions</Anchor>
+           </Node>
+           <Node>
+            <Name>Restoring Purchases</Name>
+            <Path>freemium_purchase.html</Path>
+            <Anchor>freemiumIAP</Anchor>
+            <Subnodes>
+             <Node>
+              <Name>Restore transaction events</Name>
+              <Path>freemium_purchase.html</Path>
+              <Anchor>freemium_iap_restoreEvents</Anchor>
+             </Node>
+             <Node>
+              <Name>Purchase restore success check</Name>
+              <Path>freemium_purchase.html</Path>
+              <Anchor>freemium_iap_successCheckRestore</Anchor>
+             </Node>
+            </Subnodes>
+           </Node>
+           <Node>
+            <Name>In-App Purchasing Reporting</Name>
+            <Path>freemium_purchase.html</Path>
+            <Anchor>iap_reporting</Anchor>
+           </Node>
+           <Node>
+            <Name>Purchase Verification Modes for Freemium Games</Name>
+            <Path>freemium_purchase.html</Path>
+            <Anchor>freemium_purchaseVerificationModes</Anchor>
+           </Node>
+           <Node>
+            <Name>Other Best Practices</Name>
+            <Path>freemium_purchase.html</Path>
+            <Anchor>freemium_purchaseOtherBestPractices</Anchor>
+            <Subnodes>
+             <Node>
+              <Name>Purchases cannot be canceled by the app</Name>
+              <Path>freemium_purchase.html</Path>
+              <Anchor>freemium_purchase_cannot_be_canceled</Anchor>
+             </Node>
+             <Node>
+              <Name>Always be ready for a purchase notification</Name>
+              <Path>freemium_purchase.html</Path>
+              <Anchor>freemium_be_ready_for_purchase_notification</Anchor>
+             </Node>
+             <Node>
+              <Name>What to do when purchases are taking too long</Name>
+              <Path>freemium_purchase.html</Path>
+              <Anchor>freemium_purchases_taking_too_long</Anchor>
+             </Node>
+            </Subnodes>
+           </Node>
+          </Subnodes>
+         </Node>
+         <Node>
+          <Name>Freemium Usability Requirements</Name>
+          <Path>usability.html</Path>
+          <Subnodes>
+           <Node>
+            <Name>Usability Planning</Name>
+            <Path>usability.html</Path>
+            <Anchor>fr_use_reqs</Anchor>
+           </Node>
+           <Node>
+            <Name>Touch Interface</Name>
+            <Path>usability.html</Path>
+            <Anchor>fr_use_touchInterface</Anchor>
+           </Node>
+           <Node>
+            <Name>Start Up, Set Up, First Play Session</Name>
+            <Path>usability.html</Path>
+            <Anchor>fr_use_startupSetupFirstPlay</Anchor>
+            <Subnodes>
+             <Node>
+              <Name>Profile creation</Name>
+              <Path>usability.html</Path>
+              <Anchor>fr_use_profileCreation</Anchor>
+             </Node>
+             <Node>
+              <Name>Tutorials</Name>
+              <Path>usability.html</Path>
+              <Anchor>fr_use_tutorials</Anchor>
+             </Node>
+             <Node>
+              <Name>Game Modes</Name>
+              <Path>usability.html</Path>
+              <Anchor>fr_use_gameModes</Anchor>
+             </Node>
+            </Subnodes>
+           </Node>
+           <Node>
+            <Name>UI and HUD</Name>
+            <Path>usability.html</Path>
+            <Anchor>fr_use_uiHud</Anchor>
+            <Subnodes>
+             <Node>
+              <Name>Core buttons</Name>
+              <Path>usability.html</Path>
+              <Anchor>fr_use_coreButtons</Anchor>
+             </Node>
+             <Node>
+              <Name>Positive/negative button placement</Name>
+              <Path>usability.html</Path>
+              <Anchor>fr_use_posNegButtonPlacement</Anchor>
+             </Node>
+             <Node>
+              <Name>Close button placement</Name>
+              <Path>usability.html</Path>
+              <Anchor>fr_use_closeButtonPlacement</Anchor>
+             </Node>
+             <Node>
+              <Name>Inventory</Name>
+              <Path>usability.html</Path>
+              <Anchor>fr_use_inventory</Anchor>
+             </Node>
+            </Subnodes>
+           </Node>
+           <Node>
+            <Name>User Experience</Name>
+            <Path>usability.html</Path>
+            <Anchor>fr_use_userExperience</Anchor>
+            <Subnodes>
+             <Node>
+              <Name>Visuals</Name>
+              <Path>usability.html</Path>
+              <Anchor>fr_use_uiVisuals</Anchor>
+             </Node>
+             <Node>
+              <Name>Text</Name>
+              <Path>usability.html</Path>
+              <Anchor>fr_use_uiText</Anchor>
+             </Node>
+             <Node>
+              <Name>Item names</Name>
+              <Path>usability.html</Path>
+              <Anchor>fr_use_uiItemNames</Anchor>
+             </Node>
+            </Subnodes>
+           </Node>
+           <Node>
+            <Name>Helping the Player</Name>
+            <Path>usability.html</Path>
+            <Anchor>fr_use_helpPlayer</Anchor>
+            <Subnodes>
+             <Node>
+              <Name>Navigation help and mouse-overs</Name>
+              <Path>usability.html</Path>
+              <Anchor>fr_use_helpPlay_navigation</Anchor>
+             </Node>
+             <Node>
+              <Name>Hints</Name>
+              <Path>usability.html</Path>
+              <Anchor>fr_use_helpPlay_hints</Anchor>
+             </Node>
+             <Node>
+              <Name>Puzzles and mini-games</Name>
+              <Path>usability.html</Path>
+              <Anchor>fr_use_helpPlay_puzzles</Anchor>
+             </Node>
+             <Node>
+              <Name>Hint and skip recharge</Name>
+              <Path>usability.html</Path>
+              <Anchor>fr_use_helpPlay_recharge</Anchor>
+             </Node>
+            </Subnodes>
+           </Node>
+           <Node>
+            <Name>Ratings and Reviews</Name>
+            <Path>usability.html</Path>
+            <Anchor>fr_use_rateReview</Anchor>
+           </Node>
+           <Node>
+            <Name>Saving</Name>
+            <Path>usability.html</Path>
+            <Anchor>fr_use_saving</Anchor>
+           </Node>
+           <Node>
+            <Name>Orientation and Rotation</Name>
+            <Path>usability.html</Path>
+            <Anchor>fr_use_orientationRotation</Anchor>
+           </Node>
+           <Node>
+            <Name>Loading</Name>
+            <Path>usability.html</Path>
+            <Anchor>fr_use_loading</Anchor>
+           </Node>
+           <Node>
+            <Name>Menus</Name>
+            <Path>usability.html</Path>
+            <Anchor>fr_use_menus</Anchor>
+           </Node>
+           <Node>
+            <Name>Icons</Name>
+            <Path>usability.html</Path>
+            <Anchor>fr_use_icons</Anchor>
+            <Subnodes>
+             <Node>
+              <Name>Prevent icon shine</Name>
+              <Path>usability.html</Path>
+              <Anchor>fr_use_icons_preventShine</Anchor>
+             </Node>
+             <Node>
+              <Name>Prevent concatenated icon names</Name>
+              <Path>usability.html</Path>
+              <Anchor>fr_use_icons_preventConcatenated</Anchor>
+             </Node>
+             <Node>
+              <Name>Application bundle icons</Name>
+              <Path>usability.html</Path>
+              <Anchor>fr_use_icons_reqIconFiles</Anchor>
+             </Node>
+            </Subnodes>
+           </Node>
+           <Node>
+            <Name>Audio</Name>
+            <Path>usability.html</Path>
+            <Anchor>fr_use_audio</Anchor>
+           </Node>
+          </Subnodes>
+         </Node>
+         <Node>
+          <Name>Freemium Production Requirements</Name>
+          <Path>production.html</Path>
+          <Subnodes>
+           <Node>
+            <Name>Build Requirements</Name>
+            <Path>production.html</Path>
+            <Anchor>Build_requirements</Anchor>
+            <Subnodes>
+             <Node>
+              <Name>Submitting a game build</Name>
+              <Path>production.html</Path>
+              <Anchor>Game_submission</Anchor>
+             </Node>
+             <Node>
+              <Name>Server hosting - Big Fish owned and controlled games vs. licensed games</Name>
+              <Path>production.html</Path>
+              <Anchor>server_hosting</Anchor>
+             </Node>
+             <Node>
+              <Name>Xcode requirements</Name>
+              <Path>production.html</Path>
+              <Anchor>Xcode_requirements</Anchor>
+             </Node>
+             <Node>
+              <Name>Bundle IDs and In-App Purchase IDs</Name>
+              <Path>production.html</Path>
+              <Anchor>Bundle_ID_IAP_ID</Anchor>
+             </Node>
+             <Node>
+              <Name>Application bundles</Name>
+              <Path>production.html</Path>
+              <Anchor>Application_bundles</Anchor>
+             </Node>
+             <Node>
+              <Name>JIRA</Name>
+              <Path>production.html</Path>
+              <Anchor>JIRA</Anchor>
+             </Node>
+             <Node>
+              <Name>External Subversion (SVN) repository</Name>
+              <Path>production.html</Path>
+              <Anchor>SVN</Anchor>
+             </Node>
+             <Node>
+              <Name>Build notes</Name>
+              <Path>production.html</Path>
+              <Anchor>Build_notes</Anchor>
+             </Node>
+             <Node>
+              <Name>Versioning</Name>
+              <Path>production.html</Path>
+              <Anchor>Versioning</Anchor>
+             </Node>
+            </Subnodes>
+           </Node>
+           <Node>
+            <Name>Push Build Requirements</Name>
+            <Path>production.html</Path>
+            <Anchor>buidReqs_pushBuildReqs</Anchor>
+            <Subnodes>
+             <Node>
+              <Name>Xcode setup for games with push</Name>
+              <Path>production.html</Path>
+              <Anchor>buildReqs_pushBuildReqs_xcodeSetup</Anchor>
+             </Node>
+             <Node>
+              <Name>Build notes for games with push</Name>
+              <Path>production.html</Path>
+              <Anchor>buidReqs_pushBuildReqs_buildNotes</Anchor>
+             </Node>
+            </Subnodes>
+           </Node>
+           <Node>
+            <Name>Localization</Name>
+            <Path>production.html</Path>
+            <Anchor>Localization</Anchor>
+           </Node>
+           <Node>
+            <Name>Art Requirements</Name>
+            <Path>production.html</Path>
+            <Anchor>artRequirements</Anchor>
+            <Subnodes>
+             <Node>
+              <Name>Images</Name>
+              <Path>production.html</Path>
+              <Anchor>freemiumAssetsImages</Anchor>
+             </Node>
+             <Node>
+              <Name>Logos</Name>
+              <Path>production.html</Path>
+              <Anchor>freemiumAssetsLogos</Anchor>
+             </Node>
+             <Node>
+              <Name>Game characters</Name>
+              <Path>production.html</Path>
+              <Anchor>freemiumAssetsCharacters</Anchor>
+             </Node>
+             <Node>
+              <Name>Specific game elements</Name>
+              <Path>production.html</Path>
+              <Anchor>freemiumAssetsElements</Anchor>
+             </Node>
+             <Node>
+              <Name>Loading screens</Name>
+              <Path>production.html</Path>
+              <Anchor>freemiumAssetsLoading</Anchor>
+             </Node>
+             <Node>
+              <Name>Sprites and animated graphics</Name>
+              <Path>production.html</Path>
+              <Anchor>freemiumAssetsAnimation</Anchor>
+             </Node>
+             <Node>
+              <Name>UI and fonts</Name>
+              <Path>production.html</Path>
+              <Anchor>freemiumAssetsUIfonts</Anchor>
+             </Node>
+             <Node>
+              <Name>Screenshots</Name>
+              <Path>production.html</Path>
+              <Anchor>freemiumAssetsScreenshots</Anchor>
+             </Node>
+             <Node>
+              <Name>Miscellaneous art files</Name>
+              <Path>production.html</Path>
+              <Anchor>freemiumAssetsMisc</Anchor>
+             </Node>
+             <Node>
+              <Name>Game description text and marketing bullet points</Name>
+              <Path>production.html</Path>
+              <Anchor>freemiumAssetsGameDescription</Anchor>
+             </Node>
+            </Subnodes>
+           </Node>
+           <Node>
+            <Name>Apple Demo Build</Name>
+            <Path>production.html</Path>
+            <Anchor>Demo_build</Anchor>
+           </Node>
+          </Subnodes>
+         </Node>
+         <Node>
+          <Name>Freemium Development Checklist</Name>
+          <Path>checklist.html</Path>
+          <Subnodes>
+           <Node>
+            <Name>Review Developer Documentation</Name>
+            <Path>checklist.html</Path>
+            <Anchor>FreeCh_ReviewDevDocs</Anchor>
+           </Node>
+           <Node>
+            <Name>Device and iOS Support</Name>
+            <Path>checklist.html</Path>
+            <Anchor>FreeCh_DeviceiOSsupport</Anchor>
+           </Node>
+           <Node>
+            <Name>Big Fish iOS SDK</Name>
+            <Path>checklist.html</Path>
+            <Anchor>FreeCh_BFiOSsdk</Anchor>
+           </Node>
+           <Node>
+            <Name>Main Menu</Name>
+            <Path>checklist.html</Path>
+            <Anchor>FreeCh_MainMenu</Anchor>
+           </Node>
+           <Node>
+            <Name>Options sub-menu</Name>
+            <Path>checklist.html</Path>
+            <Anchor>FreeCh_SubMenusOptions</Anchor>
+           </Node>
+           <Node>
+            <Name>Tell A Friend</Name>
+            <Path>checklist.html</Path>
+            <Anchor>FreeCh_TellFriend</Anchor>
+           </Node>
+           <Node>
+            <Name>Branding</Name>
+            <Path>checklist.html</Path>
+            <Anchor>FreeCh_Bfg_Branding</Anchor>
+           </Node>
+           <Node>
+            <Name>In-Game Rating Prompts</Name>
+            <Path>checklist.html</Path>
+            <Anchor>FreeCh_RatingPrompts</Anchor>
+           </Node>
+           <Node>
+            <Name>In-App Purchase</Name>
+            <Path>checklist.html</Path>
+            <Anchor>FreeCh_IAP</Anchor>
+           </Node>
+           <Node>
+            <Name>Reporting</Name>
+            <Path>checklist.html</Path>
+            <Anchor>FreeCh_Reporting</Anchor>
+           </Node>
+           <Node>
+            <Name>Loading</Name>
+            <Path>checklist.html</Path>
+            <Anchor>FreeCh_Loading</Anchor>
+           </Node>
+           <Node>
+            <Name>Saving</Name>
+            <Path>checklist.html</Path>
+            <Anchor>FreeCh_Saving</Anchor>
+           </Node>
+           <Node>
+            <Name>Springboard</Name>
+            <Path>checklist.html</Path>
+            <Anchor>FreeCh_Springboard</Anchor>
+           </Node>
+           <Node>
+            <Name>Audio</Name>
+            <Path>checklist.html</Path>
+            <Anchor>FreeCh_Audio</Anchor>
+           </Node>
+           <Node>
+            <Name>Marketing</Name>
+            <Path>checklist.html</Path>
+            <Anchor>FreeCh_Marketing</Anchor>
+           </Node>
+           <Node>
+            <Name>Xcode</Name>
+            <Path>checklist.html</Path>
+            <Anchor>FreeCh_Xcode</Anchor>
+           </Node>
+           <Node>
+            <Name>Build Submission (After Beta Approval)</Name>
+            <Path>checklist.html</Path>
+            <Anchor>FreeCh_BuildSubmission</Anchor>
+           </Node>
+           <Node>
+            <Name>Localization</Name>
+            <Path>checklist.html</Path>
+            <Anchor>FreeCh_Localization</Anchor>
+           </Node>
+           <Node>
+            <Name>Beta Readiness Checks</Name>
+            <Path>checklist.html</Path>
+            <Anchor>FreeCh_BetaReadinessChecks</Anchor>
+           </Node>
+          </Subnodes>
+         </Node>
+        </Subnodes>
+       </Node>
+       <Node>
+        <Name>Free-to-Play Game Development</Name>
+        <Path>f2p_doc_index.html</Path>
+        <Subnodes>
+         <Node>
+          <Name>Free-to-Play Games Overview</Name>
+          <Path>_f2_p.html</Path>
+          <Subnodes>
+           <Node>
+            <Name>What Is Free-to-Play?</Name>
+            <Path>_f2_p.html</Path>
+            <Anchor>what_is_f2p</Anchor>
+           </Node>
+           <Node>
+            <Name>Required Free-to-Play Features</Name>
+            <Path>_f2_p.html</Path>
+            <Anchor>required_f2p_features</Anchor>
+            <Subnodes>
+             <Node>
+              <Name>Optional features</Name>
+              <Path>_f2_p.html</Path>
+              <Anchor>optional_f2p_features</Anchor>
+             </Node>
+            </Subnodes>
+           </Node>
+           <Node>
+            <Name>User IDs</Name>
+            <Path>_f2_p.html</Path>
+            <Anchor>f2p_user_ids</Anchor>
+           </Node>
+           <Node>
+            <Name>In-App Purchases</Name>
+            <Path>_f2_p.html</Path>
+            <Anchor>f2p_iap</Anchor>
+           </Node>
+           <Node>
+            <Name>Required Events</Name>
+            <Path>_f2_p.html</Path>
+            <Anchor>f2p_req_events</Anchor>
+           </Node>
+          </Subnodes>
+         </Node>
+         <Node>
+          <Name>Free-to-Play Main Menu Best Practices</Name>
+          <Path>f2p_main_menu.html</Path>
+          <Subnodes>
+           <Node>
+            <Name>Main Menu Design and Big Fish Required Elements</Name>
+            <Path>f2p_main_menu.html</Path>
+            <Anchor>f2p_mm_intro</Anchor>
+            <Subnodes>
+             <Node>
+              <Name>Incorporating Big Fish elements in design</Name>
+              <Path>f2p_main_menu.html</Path>
+              <Anchor>f2p_mm_inc_elements</Anchor>
+             </Node>
+             <Node>
+              <Name>Sign In button</Name>
+              <Path>f2p_main_menu.html</Path>
+              <Anchor>f2p_mm_Login</Anchor>
+             </Node>
+             <Node>
+              <Name>Rating buttons</Name>
+              <Path>f2p_main_menu.html</Path>
+              <Anchor>f2p_mm_rating</Anchor>
+              <Subnodes>
+               <Node>
+                <Name>bfg_default_settings.json ratings settings</Name>
+                <Path>f2p_main_menu.html</Path>
+                <Anchor>ratings_json</Anchor>
+               </Node>
+               <Node>
+                <Name>Main Menu rating prompt</Name>
+                <Path>f2p_main_menu.html</Path>
+                <Anchor>Main_menu_rating</Anchor>
+               </Node>
+               <Node>
+                <Name>In-game rating prompt</Name>
+                <Path>f2p_main_menu.html</Path>
+                <Anchor>f2p_In_game_rating</Anchor>
+               </Node>
+               <Node>
+                <Name>Like [Game Title]? pop-up</Name>
+                <Path>f2p_main_menu.html</Path>
+                <Anchor>f2p_mm_like</Anchor>
+               </Node>
+              </Subnodes>
+             </Node>
+             <Node>
+              <Name>More Games button</Name>
+              <Path>f2p_main_menu.html</Path>
+              <Anchor>f2p_more_games</Anchor>
+             </Node>
+             <Node>
+              <Name>Support button</Name>
+              <Path>f2p_main_menu.html</Path>
+              <Anchor>f2p_mm_support</Anchor>
+             </Node>
+             <Node>
+              <Name>Privacy Policy button</Name>
+              <Path>f2p_main_menu.html</Path>
+              <Anchor>f2p_mm_privacy_policy</Anchor>
+             </Node>
+             <Node>
+              <Name>Terms of Use button</Name>
+              <Path>f2p_main_menu.html</Path>
+              <Anchor>f2p_mm_terms_use</Anchor>
+             </Node>
+             <Node>
+              <Name>Copyright and legal text</Name>
+              <Path>f2p_main_menu.html</Path>
+              <Anchor>f2p_mm_copyright_legal</Anchor>
+             </Node>
+             <Node>
+              <Name>Credits</Name>
+              <Path>f2p_main_menu.html</Path>
+              <Anchor>f2p_mm_credits</Anchor>
+             </Node>
+             <Node>
+              <Name>Sound sliders</Name>
+              <Path>f2p_main_menu.html</Path>
+              <Anchor>f2p_mm_sliders</Anchor>
+             </Node>
+            </Subnodes>
+           </Node>
+          </Subnodes>
+         </Node>
+         <Node>
+          <Name>Free-to-Play Game Flow on Launch</Name>
+          <Path>f2p_game_flow.html</Path>
+          <Subnodes>
+           <Node>
+            <Name>The Big Fish iOS SDK and iOS Game Flow on Launch</Name>
+            <Path>f2p_game_flow.html</Path>
+            <Anchor>f2p_gameflow</Anchor>
+            <Subnodes>
+             <Node>
+              <Name>Springboard</Name>
+              <Path>f2p_game_flow.html</Path>
+              <Anchor>homeScreen</Anchor>
+             </Node>
+             <Node>
+              <Name>Default blue watermark</Name>
+              <Path>f2p_game_flow.html</Path>
+              <Anchor>f2p_watermark</Anchor>
+             </Node>
+             <Node>
+              <Name>Server connections on launch</Name>
+              <Path>f2p_game_flow.html</Path>
+              <Anchor>f2p_server_connections_launch</Anchor>
+             </Node>
+             <Node>
+              <Name>Branding</Name>
+              <Path>f2p_game_flow.html</Path>
+              <Anchor>f2p_devBranding</Anchor>
+             </Node>
+             <Node>
+              <Name>Example loading and landing pages</Name>
+              <Path>f2p_game_flow.html</Path>
+              <Anchor>f2p_gameExamples</Anchor>
+             </Node>
+            </Subnodes>
+           </Node>
+          </Subnodes>
+         </Node>
+         <Node>
+          <Name>Facebook Implementation and Layout Best Practices</Name>
+          <Path>f2p_facebook.html</Path>
+          <Subnodes>
+           <Node>
+            <Name>iOS Facebook Post Layout</Name>
+            <Path>f2p_facebook.html</Path>
+            <Anchor>f2p_fb_layout</Anchor>
+           </Node>
+           <Node>
+            <Name>Adding a Fan Page Link to the Actions Area of a Feed Post</Name>
+            <Path>f2p_facebook.html</Path>
+            <Anchor>f2p_fb_fanpage</Anchor>
+           </Node>
+          </Subnodes>
+         </Node>
+         <Node>
+          <Name>Making Free-to-Play In-App Purchases</Name>
+          <Path>f2p_purchase.html</Path>
+          <Subnodes>
+           <Node>
+            <Name>Making In-App Purchases with the Big Fish iOS SDK</Name>
+            <Path>f2p_purchase.html</Path>
+            <Anchor>f2p_iap_overview</Anchor>
+           </Node>
+           <Node>
+            <Name>Implementing Big Fish In-App Purchases into Your Game</Name>
+            <Path>f2p_purchase.html</Path>
+            <Anchor>f2p_iap_implementationSteps</Anchor>
+            <Subnodes>
+             <Node>
+              <Name>Step 1: Add the HBI value and remove the default productID</Name>
+              <Path>f2p_purchase.html</Path>
+              <Anchor>f2p_iap_removeDefaultProductID</Anchor>
+             </Node>
+             <Node>
+              <Name>Step 2: Listen for bfgPurchase notifications</Name>
+              <Path>f2p_purchase.html</Path>
+              <Anchor>f2p_iap_notifications_bfgPurchase</Anchor>
+             </Node>
+             <Node>
+              <Name>Step 3: Initiate bfgPurchase</Name>
+              <Path>f2p_purchase.html</Path>
+              <Anchor>f2p_iap_initiate_bfgPurchase</Anchor>
+             </Node>
+             <Node>
+              <Name>Step 4: Acquire product information</Name>
+              <Path>f2p_purchase.html</Path>
+              <Anchor>f2p_iap_acquireProdInfo</Anchor>
+             </Node>
+             <Node>
+              <Name>purchase Step 5: canStartPurchase (optional)</Name>
+              <Path>f2p_purchase.html</Path>
+              <Anchor>f2p_iap_canStartPurchase</Anchor>
+             </Node>
+             <Node>
+              <Name>Step 6: Initiate the purchase</Name>
+              <Path>f2p_purchase.html</Path>
+              <Anchor>f2p_iap_initiate_purchase</Anchor>
+              <Subnodes>
+               <Node>
+                <Name>In-App Purchasing via placements</Name>
+                <Path>f2p_purchase.html</Path>
+                <Anchor>f2p_IAPviaPlacements</Anchor>
+               </Node>
+              </Subnodes>
+             </Node>
+             <Node>
+              <Name>bfgPurchaseObject canceled field</Name>
+              <Path>f2p_purchase.html</Path>
+              <Anchor>cancel_bfgPurchaseObject</Anchor>
+             </Node>
+             <Node>
+              <Name>Step 7: Finish the purchase</Name>
+              <Path>f2p_purchase.html</Path>
+              <Anchor>f2p_iap_finish_purchase</Anchor>
+             </Node>
+            </Subnodes>
+           </Node>
+           <Node>
+            <Name>Free-to-Play Purchase Transaction Events</Name>
+            <Path>f2p_purchase.html</Path>
+            <Anchor>f2pTransactions</Anchor>
+           </Node>
+           <Node>
+            <Name>Restoring Purchases</Name>
+            <Path>f2p_purchase.html</Path>
+            <Anchor>f2p_iap_restore_a_purchase</Anchor>
+            <Subnodes>
+             <Node>
+              <Name>Restore transaction events</Name>
+              <Path>f2p_purchase.html</Path>
+              <Anchor>f2p_iap_restoreEvents</Anchor>
+             </Node>
+             <Node>
+              <Name>Purchase restore success check</Name>
+              <Path>f2p_purchase.html</Path>
+              <Anchor>f2p_iap_successCheckRestore</Anchor>
+             </Node>
+             <Node>
+              <Name>Example code</Name>
+              <Path>f2p_purchase.html</Path>
+              <Anchor>f2p_iap_restoreCodeExample</Anchor>
+             </Node>
+            </Subnodes>
+           </Node>
+           <Node>
+            <Name>In-App Purchasing Reporting</Name>
+            <Path>f2p_purchase.html</Path>
+            <Anchor>iap_reporting</Anchor>
+           </Node>
+           <Node>
+            <Name>Purchase Verification Modes for Free-to-Play Games</Name>
+            <Path>f2p_purchase.html</Path>
+            <Anchor>f2p_purchaseVerificationModes</Anchor>
+           </Node>
+           <Node>
+            <Name>Other Best Practices</Name>
+            <Path>f2p_purchase.html</Path>
+            <Anchor>f2p_purchaseOtherBestPractices</Anchor>
+            <Subnodes>
+             <Node>
+              <Name>Purchases cannot be canceled by the app</Name>
+              <Path>f2p_purchase.html</Path>
+              <Anchor>purchase_cannot_be_canceled</Anchor>
+             </Node>
+             <Node>
+              <Name>Always be ready for a purchase notification</Name>
+              <Path>f2p_purchase.html</Path>
+              <Anchor>f2p_be_ready_for_purchase_notification</Anchor>
+             </Node>
+             <Node>
+              <Name>bfgPurchase notifications occur on the main thread</Name>
+              <Path>f2p_purchase.html</Path>
+              <Anchor>f2p_notifications_occur_main_thread</Anchor>
+             </Node>
+             <Node>
+              <Name>Keep in mind the bfgPurchase sequence</Name>
+              <Path>f2p_purchase.html</Path>
+              <Anchor>f2p_sequence</Anchor>
+             </Node>
+             <Node>
+              <Name>Provide a means to restore purchases</Name>
+              <Path>f2p_purchase.html</Path>
+              <Anchor>f2p_restore_purchases</Anchor>
+             </Node>
+             <Node>
+              <Name>What to do when purchases are taking too long</Name>
+              <Path>f2p_purchase.html</Path>
+              <Anchor>f2p_purchases_taking_too_long</Anchor>
+             </Node>
+            </Subnodes>
+           </Node>
+          </Subnodes>
+         </Node>
+         <Node>
+          <Name>Free-to-Play Usability Requirements</Name>
+          <Path>f2p_usability.html</Path>
+          <Subnodes>
+           <Node>
+            <Name>Usability Requirements</Name>
+            <Path>f2p_usability.html</Path>
+            <Anchor>Usability_requirements</Anchor>
+            <Subnodes>
+             <Node>
+              <Name>Touch interface</Name>
+              <Path>f2p_usability.html</Path>
+              <Anchor>Touch_interface</Anchor>
+             </Node>
+             <Node>
+              <Name>Orientation and rotation</Name>
+              <Path>f2p_usability.html</Path>
+              <Anchor>Orientation_and_rotation</Anchor>
+             </Node>
+             <Node>
+              <Name>Loading</Name>
+              <Path>f2p_usability.html</Path>
+              <Anchor>Loading</Anchor>
+             </Node>
+             <Node>
+              <Name>Saving</Name>
+              <Path>f2p_usability.html</Path>
+              <Anchor>Saving</Anchor>
+             </Node>
+             <Node>
+              <Name>Menus</Name>
+              <Path>f2p_usability.html</Path>
+              <Anchor>Menus</Anchor>
+             </Node>
+             <Node>
+              <Name>Icons</Name>
+              <Path>f2p_usability.html</Path>
+              <Anchor>Icons</Anchor>
+              <Subnodes>
+               <Node>
+                <Name>Prevent icon shine</Name>
+                <Path>f2p_usability.html</Path>
+                <Anchor>Prevent_icon_shine</Anchor>
+               </Node>
+               <Node>
+                <Name>Prevent concatenated icon names</Name>
+                <Path>f2p_usability.html</Path>
+                <Anchor>Prevent_concatenated_icon_names</Anchor>
+               </Node>
+               <Node>
+                <Name>Application bundle icons</Name>
+                <Path>f2p_usability.html</Path>
+                <Anchor>Required_icon_files</Anchor>
+               </Node>
+              </Subnodes>
+             </Node>
+             <Node>
+              <Name>Audio</Name>
+              <Path>f2p_usability.html</Path>
+              <Anchor>usability_audio</Anchor>
+             </Node>
+            </Subnodes>
+           </Node>
+          </Subnodes>
+         </Node>
+         <Node>
+          <Name>Free-to-Play Production Requirements</Name>
+          <Path>f2p_production.html</Path>
+          <Subnodes>
+           <Node>
+            <Name>Build Requirements</Name>
+            <Path>f2p_production.html</Path>
+            <Anchor>f2p_Build_requirements</Anchor>
+            <Subnodes>
+             <Node>
+              <Name>Submitting a game build</Name>
+              <Path>f2p_production.html</Path>
+              <Anchor>f2p_Game_submission</Anchor>
+             </Node>
+             <Node>
+              <Name>Server selection</Name>
+              <Path>f2p_production.html</Path>
+              <Anchor>f2p_server_selection</Anchor>
+             </Node>
+             <Node>
+              <Name>Xcode requirements</Name>
+              <Path>f2p_production.html</Path>
+              <Anchor>f2p_Xcode_requirements</Anchor>
+             </Node>
+             <Node>
+              <Name>Bundle IDs and In-App Purchase IDs</Name>
+              <Path>f2p_production.html</Path>
+              <Anchor>f2p_Bundle_ID_IAP_ID</Anchor>
+             </Node>
+             <Node>
+              <Name>Application bundles</Name>
+              <Path>f2p_production.html</Path>
+              <Anchor>f2p_Application_bundles</Anchor>
+             </Node>
+             <Node>
+              <Name>JIRA</Name>
+              <Path>f2p_production.html</Path>
+              <Anchor>f2p_JIRA</Anchor>
+             </Node>
+             <Node>
+              <Name>External Subversion (SVN) repository</Name>
+              <Path>f2p_production.html</Path>
+              <Anchor>f2p_SVN</Anchor>
+             </Node>
+             <Node>
+              <Name>Build notes</Name>
+              <Path>f2p_production.html</Path>
+              <Anchor>f2p_Build_notes</Anchor>
+             </Node>
+             <Node>
+              <Name>Versioning</Name>
+              <Path>f2p_production.html</Path>
+              <Anchor>f2p_Versioning</Anchor>
+             </Node>
+            </Subnodes>
+           </Node>
+           <Node>
+            <Name>Localization</Name>
+            <Path>f2p_production.html</Path>
+            <Anchor>f2p_Localization</Anchor>
+           </Node>
+           <Node>
+            <Name>Art Requirements</Name>
+            <Path>f2p_production.html</Path>
+            <Anchor>artRequirements</Anchor>
+            <Subnodes>
+             <Node>
+              <Name>Images</Name>
+              <Path>f2p_production.html</Path>
+              <Anchor>freemiumAssetsImages</Anchor>
+             </Node>
+             <Node>
+              <Name>Logos</Name>
+              <Path>f2p_production.html</Path>
+              <Anchor>freemiumAssetsLogos</Anchor>
+             </Node>
+             <Node>
+              <Name>Game characters</Name>
+              <Path>f2p_production.html</Path>
+              <Anchor>freemiumAssetsCharacters</Anchor>
+             </Node>
+             <Node>
+              <Name>Specific game elements</Name>
+              <Path>f2p_production.html</Path>
+              <Anchor>freemiumAssetsElements</Anchor>
+             </Node>
+             <Node>
+              <Name>Loading screens</Name>
+              <Path>f2p_production.html</Path>
+              <Anchor>freemiumAssetsLoading</Anchor>
+             </Node>
+             <Node>
+              <Name>Sprites and animated graphics</Name>
+              <Path>f2p_production.html</Path>
+              <Anchor>freemiumAssetsAnimation</Anchor>
+             </Node>
+             <Node>
+              <Name>UI and fonts</Name>
+              <Path>f2p_production.html</Path>
+              <Anchor>freemiumAssetsUIfonts</Anchor>
+             </Node>
+             <Node>
+              <Name>Screenshots</Name>
+              <Path>f2p_production.html</Path>
+              <Anchor>freemiumAssetsScreenshots</Anchor>
+             </Node>
+             <Node>
+              <Name>Miscellaneous art files</Name>
+              <Path>f2p_production.html</Path>
+              <Anchor>freemiumAssetsMisc</Anchor>
+             </Node>
+             <Node>
+              <Name>Game description text and marketing bullet points</Name>
+              <Path>f2p_production.html</Path>
+              <Anchor>freemiumAssetsGameDescription</Anchor>
+             </Node>
+            </Subnodes>
+           </Node>
+           <Node>
+            <Name>Apple Demo Build</Name>
+            <Path>f2p_production.html</Path>
+            <Anchor>f2p_Demo_build</Anchor>
+           </Node>
+          </Subnodes>
+         </Node>
+         <Node>
+          <Name>Free-to-Play Development Checklist</Name>
+          <Path>f2p_checklist.html</Path>
+          <Subnodes>
+           <Node>
+            <Name>Review Developer Documentation</Name>
+            <Path>f2p_checklist.html</Path>
+            <Anchor>f2pCh_reviewDevDocs</Anchor>
+           </Node>
+           <Node>
+            <Name>Device and iOS Support</Name>
+            <Path>f2p_checklist.html</Path>
+            <Anchor>f2pCh_deviceiOSsupport</Anchor>
+           </Node>
+           <Node>
+            <Name>Big Fish iOS SDK</Name>
+            <Path>f2p_checklist.html</Path>
+            <Anchor>f2pCh_bfiOSsdk</Anchor>
+           </Node>
+           <Node>
+            <Name>Main Menu</Name>
+            <Path>f2p_checklist.html</Path>
+            <Anchor>f2pCh_MainMenu</Anchor>
+           </Node>
+           <Node>
+            <Name>Branding</Name>
+            <Path>f2p_checklist.html</Path>
+            <Anchor>f2pCh_bfg_Branding</Anchor>
+           </Node>
+           <Node>
+            <Name>In-Game Rating Prompts</Name>
+            <Path>f2p_checklist.html</Path>
+            <Anchor>f2pCh_ratingPrompts</Anchor>
+           </Node>
+           <Node>
+            <Name>In-App Purchase</Name>
+            <Path>f2p_checklist.html</Path>
+            <Anchor>f2pCh_IAP</Anchor>
+           </Node>
+           <Node>
+            <Name>Reporting</Name>
+            <Path>f2p_checklist.html</Path>
+            <Anchor>f2pCh_reporting</Anchor>
+           </Node>
+           <Node>
+            <Name>Loading</Name>
+            <Path>f2p_checklist.html</Path>
+            <Anchor>f2pCh_loading</Anchor>
+           </Node>
+           <Node>
+            <Name>Saving</Name>
+            <Path>f2p_checklist.html</Path>
+            <Anchor>f2pCh_saving</Anchor>
+           </Node>
+           <Node>
+            <Name>Springboard</Name>
+            <Path>f2p_checklist.html</Path>
+            <Anchor>f2pCh_springboard</Anchor>
+           </Node>
+           <Node>
+            <Name>Audio</Name>
+            <Path>f2p_checklist.html</Path>
+            <Anchor>f2pCh_audio</Anchor>
+           </Node>
+           <Node>
+            <Name>Marketing</Name>
+            <Path>f2p_checklist.html</Path>
+            <Anchor>f2pCh_marketing</Anchor>
+           </Node>
+           <Node>
+            <Name>Xcode</Name>
+            <Path>f2p_checklist.html</Path>
+            <Anchor>f2pCh_xcode</Anchor>
+           </Node>
+           <Node>
+            <Name>Build Submission (After Beta Approval)</Name>
+            <Path>f2p_checklist.html</Path>
+            <Anchor>f2pCh_buildSubmission</Anchor>
+           </Node>
+           <Node>
+            <Name>Localization</Name>
+            <Path>f2p_checklist.html</Path>
+            <Anchor>f2pCh_localization</Anchor>
+           </Node>
+           <Node>
+            <Name>Beta Readiness Checks</Name>
+            <Path>f2p_checklist.html</Path>
+            <Anchor>f2pCh_betaReadinessChecks</Anchor>
+           </Node>
+          </Subnodes>
+         </Node>
+        </Subnodes>
+       </Node>
+       <Node>
+        <Name>Frequently Asked Questions</Name>
+        <Path>_f_a_q.html</Path>
+        <Subnodes>
+         <Node>
+          <Name>Finding Your Answer</Name>
+          <Path>_f_a_q.html</Path>
+          <Anchor>faq_intro</Anchor>
+          <Subnodes>
+           <Node>
+            <Name>BFGUIKitExample and Debugging</Name>
+            <Path>_f_a_q.html</Path>
+            <Anchor>debug_troubleshooting</Anchor>
+           </Node>
+          </Subnodes>
+         </Node>
+         <Node>
+          <Name>Top Troubleshooting Issues</Name>
+          <Path>_f_a_q.html</Path>
+          <Anchor>faq_top4issues</Anchor>
+          <Subnodes>
+           <Node>
+            <Name>Sandbox purchasing failed with &quot;In-App Purchasing is disabled&quot; error</Name>
+            <Path>_f_a_q.html</Path>
+            <Anchor>faq_sandboxPurchaseFailIAP</Anchor>
+           </Node>
+           <Node>
+            <Name>Product ID not reported to the Big Fish server with the revenue event for purchase</Name>
+            <Path>_f_a_q.html</Path>
+            <Anchor>faq_productId</Anchor>
+           </Node>
+           <Node>
+            <Name>No custom URL was defined and QA bugged the VGP (virtual goods promotion) is not working correctly</Name>
+            <Path>_f_a_q.html</Path>
+            <Anchor>faq_urlNavigation</Anchor>
+           </Node>
+           <Node>
+            <Name>Faulty JSON settings</Name>
+            <Path>_f_a_q.html</Path>
+            <Anchor>faq_jsonSettings</Anchor>
+           </Node>
+          </Subnodes>
+         </Node>
+         <Node>
+          <Name>Xcode Projects and info.plist Settings</Name>
+          <Path>_f_a_q.html</Path>
+          <Anchor>faq_xcode_info_plist</Anchor>
+          <Subnodes>
+           <Node>
+            <Name>Why is EN the only language reporting in Xcode?</Name>
+            <Path>_f_a_q.html</Path>
+            <Anchor>faq_xcodeEn</Anchor>
+           </Node>
+           <Node>
+            <Name>Why are several Apple default UI elements (Email form buttons, etc.) appearing in random languages?</Name>
+            <Path>_f_a_q.html</Path>
+            <Anchor>faq_randomLanguages</Anchor>
+           </Node>
+          </Subnodes>
+         </Node>
+         <Node>
+          <Name>Build Issues</Name>
+          <Path>_f_a_q.html</Path>
+          <Anchor>faq_buildIssues</Anchor>
+          <Subnodes>
+           <Node>
+            <Name>Why am I getting Automatic Reference Count (ARC) or [dealloc] errors when I build?</Name>
+            <Path>_f_a_q.html</Path>
+            <Anchor>arc_errors</Anchor>
+           </Node>
+          </Subnodes>
+         </Node>
+         <Node>
+          <Name>SDK Upgrades</Name>
+          <Path>_f_a_q.html</Path>
+          <Anchor>faq_SDKissues</Anchor>
+          <Subnodes>
+           <Node>
+            <Name>After the Big Fish iOS SDK upgrade, feature(s) are no longer working</Name>
+            <Path>_f_a_q.html</Path>
+            <Anchor>faq_broken_feature</Anchor>
+           </Node>
+           <Node>
+            <Name>Hotfixes for existing SDK versions</Name>
+            <Path>_f_a_q.html</Path>
+            <Anchor>faq_hotFixes</Anchor>
+           </Node>
+          </Subnodes>
+         </Node>
+         <Node>
+          <Name>Purchase Issues</Name>
+          <Path>_f_a_q.html</Path>
+          <Anchor>faq_purchaseIssues</Anchor>
+          <Subnodes>
+           <Node>
+            <Name>How do I test In-App Purchase functionality?</Name>
+            <Path>_f_a_q.html</Path>
+            <Anchor>faq_IAPtest</Anchor>
+           </Node>
+           <Node>
+            <Name>Custom purchase code for In-App Purchase for Full Game Unlock is no longer permissible</Name>
+            <Path>_f_a_q.html</Path>
+            <Anchor>faq_customPurchaseCode</Anchor>
+           </Node>
+           <Node>
+            <Name>Why is [bfgPurchase startService] always returning NO?</Name>
+            <Path>_f_a_q.html</Path>
+            <Anchor>faq_invalidHBI</Anchor>
+           </Node>
+          </Subnodes>
+         </Node>
+         <Node>
+          <Name>Game Resources and Assets</Name>
+          <Path>_f_a_q.html</Path>
+          <Anchor>faq_gameResourcesIssues</Anchor>
+          <Subnodes>
+           <Node>
+            <Name>Why are the settings on the Mobile Admin Tool server not reflected by the client?</Name>
+            <Path>_f_a_q.html</Path>
+            <Anchor>faq_MATsettings</Anchor>
+           </Node>
+           <Node>
+            <Name>Including game-specific data and resources for an externally linked Big Fish iOS SDK</Name>
+            <Path>_f_a_q.html</Path>
+            <Anchor>faq_externallyLinkedGamespecific</Anchor>
+           </Node>
+           <Node>
+            <Name>Why are there splash screens for several other developers in bfgbranding_resources.zip?</Name>
+            <Path>_f_a_q.html</Path>
+            <Anchor>faq_brandingDefaultscreens</Anchor>
+           </Node>
+           <Node>
+            <Name>Correct Big Fish branding/splash screen</Name>
+            <Path>_f_a_q.html</Path>
+            <Anchor>faq_correctBFbranding</Anchor>
+           </Node>
+           <Node>
+            <Name>Why are no iPhone 5 assets included with the bfg_gamespecific_resources?</Name>
+            <Path>_f_a_q.html</Path>
+            <Anchor>faq_iphone5assets</Anchor>
+           </Node>
+           <Node>
+            <Name>How much space should be left on the Main Menu to accommodate the Big Fish ads?</Name>
+            <Path>_f_a_q.html</Path>
+            <Anchor>faq_adSpace</Anchor>
+           </Node>
+           <Node>
+            <Name>How do I create a Tell A Friend button asset?</Name>
+            <Path>_f_a_q.html</Path>
+            <Anchor>faq_tellafriend_help</Anchor>
+           </Node>
+           <Node>
+            <Name>If login is not required for my game, how do I can I identify a user?</Name>
+            <Path>_f_a_q.html</Path>
+            <Anchor>faq_noLogin</Anchor>
+           </Node>
+          </Subnodes>
+         </Node>
+         <Node>
+          <Name>Game Developer Network (GDN) Issues</Name>
+          <Path>_f_a_q.html</Path>
+          <Anchor>faq_GDNissues</Anchor>
+          <Subnodes>
+           <Node>
+            <Name>Customizing the GDN title, icon, and background</Name>
+            <Path>_f_a_q.html</Path>
+            <Anchor>faq_customGDN</Anchor>
+           </Node>
+           <Node>
+            <Name>When should Pause/Resume be shown and how is this initialized?</Name>
+            <Path>_f_a_q.html</Path>
+            <Anchor>faq_pauseResume</Anchor>
+           </Node>
+           <Node>
+            <Name>Why is the GDN not rotating correctly with the application?</Name>
+            <Path>_f_a_q.html</Path>
+            <Anchor>faq_GDNrotate</Anchor>
+           </Node>
+           <Node>
+            <Name>Why is the GDN ignoring &quot;if blocks&quot; in bfg_default_settings.json?</Name>
+            <Path>_f_a_q.html</Path>
+            <Anchor>faq_ifBlocks</Anchor>
+           </Node>
+           <Node>
+            <Name>Changes to bfgpromodashboard_gamespecifc.zip are not reflected by the GDN and a &quot;strings not found&quot; error appears in place of the game title</Name>
+            <Path>_f_a_q.html</Path>
+            <Anchor>faq_stringNotFoundError</Anchor>
+           </Node>
+          </Subnodes>
+         </Node>
+         <Node>
+          <Name>Ratings Issues</Name>
+          <Path>_f_a_q.html</Path>
+          <Anchor>faq_ratings</Anchor>
+          <Subnodes>
+           <Node>
+            <Name>Configuring the bfgRating class</Name>
+            <Path>_f_a_q.html</Path>
+            <Anchor>faq_bfgRatingConfig</Anchor>
+           </Node>
+           <Node>
+            <Name>Linking to the App Store for rating when there is no Internet connection</Name>
+            <Path>_f_a_q.html</Path>
+            <Anchor>faq_rateURL</Anchor>
+           </Node>
+           <Node>
+            <Name>Where should I place the first in-game rating prompt?</Name>
+            <Path>_f_a_q.html</Path>
+            <Anchor>faq_firstIngameRating</Anchor>
+           </Node>
+          </Subnodes>
+         </Node>
+         <Node>
+          <Name>Reporting Issues</Name>
+          <Path>_f_a_q.html</Path>
+          <Anchor>faq_reportingIssues</Anchor>
+          <Subnodes>
+           <Node>
+            <Name>How is Kontagent supported in the SDK?</Name>
+            <Path>_f_a_q.html</Path>
+            <Anchor>faq_KontagentSupport</Anchor>
+           </Node>
+           <Node>
+            <Name>How is HasOffers supported in the SDK?</Name>
+            <Path>_f_a_q.html</Path>
+            <Anchor>faq_HasoffersSupport</Anchor>
+           </Node>
+           <Node>
+            <Name>How is PlayHaven supported in the SDK?</Name>
+            <Path>_f_a_q.html</Path>
+            <Anchor>faq_PlayhavenSupport</Anchor>
+           </Node>
+           <Node>
+            <Name>Flurry is not reporting. Where is the SDK and what should be tracked?</Name>
+            <Path>_f_a_q.html</Path>
+            <Anchor>faq_flurryReporting</Anchor>
+           </Node>
+           <Node>
+            <Name>Where can I find help with Product ID tracking and other revenue events?</Name>
+            <Path>_f_a_q.html</Path>
+            <Anchor>faq_productID_tracking</Anchor>
+           </Node>
+           <Node>
+            <Name>The &quot;paywallsShownCount&quot; log event is not tracking</Name>
+            <Path>_f_a_q.html</Path>
+            <Anchor>faq_paywallShownCount</Anchor>
+           </Node>
+           <Node>
+            <Name>The &quot;lastPaywallShownID&quot; log event is not tracking</Name>
+            <Path>_f_a_q.html</Path>
+            <Anchor>faq_lastPaywallShownID_bug</Anchor>
+           </Node>
+           <Node>
+            <Name>The &quot;purchasedMainShownCount&quot; log event is not tracking</Name>
+            <Path>_f_a_q.html</Path>
+            <Anchor>faq_purchasedMainShownCount</Anchor>
+           </Node>
+           <Node>
+            <Name>The &quot;purchasedType&quot; log event is not tracking</Name>
+            <Path>_f_a_q.html</Path>
+            <Anchor>faq_purchasedType</Anchor>
+           </Node>
+          </Subnodes>
+         </Node>
+         <Node>
+          <Name>Submission and Apple Review</Name>
+          <Path>_f_a_q.html</Path>
+          <Anchor>faq_submissionsReview</Anchor>
+          <Subnodes>
+           <Node>
+            <Name>Why was my app rejected by Apple?</Name>
+            <Path>_f_a_q.html</Path>
+            <Anchor>app_rejection</Anchor>
+           </Node>
+          </Subnodes>
+         </Node>
+         <Node>
+          <Name>Using the iOS SDK with Unity</Name>
+          <Path>_f_a_q.html</Path>
+          <Anchor>faq_unityIssues</Anchor>
+          <Subnodes>
+           <Node>
+            <Name>Unity settings</Name>
+            <Path>_f_a_q.html</Path>
+            <Anchor>faq_unitySettings</Anchor>
+           </Node>
+           <Node>
+            <Name>SDK integration with Unity</Name>
+            <Path>_f_a_q.html</Path>
+            <Anchor>faq_unityIntegration</Anchor>
+            <Subnodes>
+             <Node>
+              <Name>Initial Xcode integration steps</Name>
+              <Path>_f_a_q.html</Path>
+              <Anchor>faq_unityIntialSteps</Anchor>
+             </Node>
+             <Node>
+              <Name>Code modifications for SDK initialization with Unity</Name>
+              <Path>_f_a_q.html</Path>
+              <Anchor>faq_modificationsUnity</Anchor>
+             </Node>
+             <Node>
+              <Name>Calling additional BFG functions</Name>
+              <Path>_f_a_q.html</Path>
+              <Anchor>faq_callAddBfgFunctions</Anchor>
+             </Node>
+            </Subnodes>
+           </Node>
+           <Node>
+            <Name>Languages are not reported through Xcode</Name>
+            <Path>_f_a_q.html</Path>
+            <Anchor>faq_languagesUnreported</Anchor>
+           </Node>
+          </Subnodes>
+         </Node>
+         <Node>
+          <Name>PlayHaven Issues</Name>
+          <Path>_f_a_q.html</Path>
+          <Anchor>faq_playhaven</Anchor>
+          <Subnodes>
+           <Node>
+            <Name>One or more of the default placements failed to appear</Name>
+            <Path>_f_a_q.html</Path>
+            <Anchor>faq_placementsDontAppear</Anchor>
+           </Node>
+           <Node>
+            <Name>The &quot;end_paywall_opened&quot; placement failed to appear or appeared at the wrong time</Name>
+            <Path>_f_a_q.html</Path>
+            <Anchor>faq_placementEndPaywallOpenedNotAppear</Anchor>
+           </Node>
+           <Node>
+            <Name>The virtual goods promotion test failed during Mobile QA</Name>
+            <Path>_f_a_q.html</Path>
+            <Anchor>faq_placementPromoVGtestFail</Anchor>
+           </Node>
+           <Node>
+            <Name>Mobile QA bugged that tapping on the &quot;mainmenu_paywall_opened&quot; placement fails to direct the player to google.com</Name>
+            <Path>_f_a_q.html</Path>
+            <Anchor>faq_placementFailsGoogle</Anchor>
+           </Node>
+          </Subnodes>
+         </Node>
+         <Node>
+          <Name>Adobe Air/Adobe Native Extension Issues</Name>
+          <Path>_f_a_q.html</Path>
+          <Anchor>faq_ANEissues</Anchor>
+          <Subnodes>
+           <Node>
+            <Name>Building an Adobe Air Application with the Big Fish Adobe Native Exentsion</Name>
+            <Path>_f_a_q.html</Path>
+            <Anchor>faq_ANEbuildingAirApp</Anchor>
+           </Node>
+           <Node>
+            <Name>Bundle IDs</Name>
+            <Path>_f_a_q.html</Path>
+            <Anchor>faq_ANEbundleIDs</Anchor>
+           </Node>
+           <Node>
+            <Name>Custom URL Scheme Support</Name>
+            <Path>_f_a_q.html</Path>
+            <Anchor>faq_ANEcustomURL</Anchor>
+           </Node>
+          </Subnodes>
+         </Node>
+         <Node>
+          <Name>Miscellaneous Issues</Name>
+          <Path>_f_a_q.html</Path>
+          <Anchor>faq_misc</Anchor>
+          <Subnodes>
+           <Node>
+            <Name>How do I troubleshoot a Wifi error?</Name>
+            <Path>_f_a_q.html</Path>
+            <Anchor>faq_wifiError</Anchor>
+           </Node>
+           <Node>
+            <Name>Mobile App Tracker/HasOffers wrapped in SDK</Name>
+            <Path>_f_a_q.html</Path>
+            <Anchor>faq_mobileAppTrackerHasOffersIntegration</Anchor>
+           </Node>
+           <Node>
+            <Name>How do I manage memory and prevent memory leaks</Name>
+            <Path>_f_a_q.html</Path>
+            <Anchor>faq_miscMemoryIssues</Anchor>
+           </Node>
+           <Node>
+            <Name>Wallpapers need to be saved to Photos</Name>
+            <Path>_f_a_q.html</Path>
+            <Anchor>faq_wallpapers</Anchor>
+           </Node>
+          </Subnodes>
+         </Node>
+        </Subnodes>
+       </Node>
+       <Node>
+        <Name>Releases</Name>
+        <Path>releases.html</Path>
+        <Subnodes>
+         <Node>
+          <Name>What&apos;s new in this release</Name>
+          <Path>_whatsnew.html</Path>
+          <Subnodes>
+           <Node>
+            <Name>New features of Big Fish iOS SDK 4.9</Name>
+            <Path>_whatsnew.html</Path>
+            <Anchor>New_Features_4_9</Anchor>
+           </Node>
+           <Node>
+            <Name>New features of Big Fish iOS SDK 4.8</Name>
+            <Path>_whatsnew.html</Path>
+            <Anchor>New_Features_4_8</Anchor>
+           </Node>
+           <Node>
+            <Name>New features of Big Fish iOS SDK 4.7</Name>
+            <Path>_whatsnew.html</Path>
+            <Anchor>New_Features_4_7</Anchor>
+            <Subnodes>
+             <Node>
+              <Name>Purchase verification modes</Name>
+              <Path>_whatsnew.html</Path>
+              <Anchor>rn_4_7_purchaseVerificationModes</Anchor>
+             </Node>
+             <Node>
+              <Name>HBI</Name>
+              <Path>_whatsnew.html</Path>
+              <Anchor>rn_4_7_hbi</Anchor>
+             </Node>
+             <Node>
+              <Name>HasOffers</Name>
+              <Path>_whatsnew.html</Path>
+              <Anchor>rn_4_7_hasOffers</Anchor>
+             </Node>
+            </Subnodes>
+           </Node>
+           <Node>
+            <Name>New features of Big Fish iOS SDK 4.6</Name>
+            <Path>_whatsnew.html</Path>
+            <Anchor>New_Features_4_6</Anchor>
+           </Node>
+           <Node>
+            <Name>New features of Big Fish iOS SDK 4.5.1</Name>
+            <Path>_whatsnew.html</Path>
+            <Anchor>New_Features_4_5_1</Anchor>
+           </Node>
+           <Node>
+            <Name>New features of Big Fish iOS SDK 4.5</Name>
+            <Path>_whatsnew.html</Path>
+            <Anchor>New_Features_4_5</Anchor>
+           </Node>
+           <Node>
+            <Name>New features of Big Fish iOS SDK 4.4</Name>
+            <Path>_whatsnew.html</Path>
+            <Anchor>New_Features_4_4</Anchor>
+           </Node>
+           <Node>
+            <Name>New features of Big Fish iOS SDK 4.3</Name>
+            <Path>_whatsnew.html</Path>
+            <Anchor>New_Features_4_3</Anchor>
+           </Node>
+           <Node>
+            <Name>New features of Big Fish iOS SDK 4.2</Name>
+            <Path>_whatsnew.html</Path>
+            <Anchor>New_Features_4_2</Anchor>
+            <Subnodes>
+             <Node>
+              <Name>bfgPurchase</Name>
+              <Path>_whatsnew.html</Path>
+              <Anchor>New_Features_4_2_Purchase</Anchor>
+             </Node>
+             <Node>
+              <Name>Miscellaneous</Name>
+              <Path>_whatsnew.html</Path>
+              <Anchor>New_Features_4_2_Miscellaneous</Anchor>
+             </Node>
+            </Subnodes>
+           </Node>
+           <Node>
+            <Name>New features of Big Fish iOS SDK 4.1.1</Name>
+            <Path>_whatsnew.html</Path>
+            <Anchor>New_Features_4_1_1</Anchor>
+           </Node>
+           <Node>
+            <Name>New features of Big Fish iOS SDK 4.1</Name>
+            <Path>_whatsnew.html</Path>
+            <Anchor>New_Features_4_1</Anchor>
+           </Node>
+           <Node>
+            <Name>New features of Big Fish iOS SDK 4.0</Name>
+            <Path>_whatsnew.html</Path>
+            <Anchor>New_Features_4_0</Anchor>
+           </Node>
+           <Node>
+            <Name>New features of Big Fish iOS SDK 3.1</Name>
+            <Path>_whatsnew.html</Path>
+            <Anchor>New_Features_3_1</Anchor>
+           </Node>
+           <Node>
+            <Name>New features of Big Fish iOS SDK 3.0</Name>
+            <Path>_whatsnew.html</Path>
+            <Anchor>New_Features_3_0</Anchor>
+           </Node>
+          </Subnodes>
+         </Node>
+         <Node>
+          <Name>4.1 API Changes</Name>
+          <Path>_a_p_i_changes41.html</Path>
+         </Node>
+         <Node>
+          <Name>4.1 Upgrade Steps</Name>
+          <Path>_u_p_g_r_a_d_e41.html</Path>
+         </Node>
+        </Subnodes>
+       </Node>
+      </Subnodes>
+    </Node>
+  </TOC>
+</DocSetNodes>

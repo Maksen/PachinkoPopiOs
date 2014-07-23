@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleIdentifier</key>
+	<string>com.bigfishgames.bfgsdkios</string>
+	<key>CFBundleName</key>
+	<string>Big Fish iOS SDK</string>
+	<key>CFBundleShortVersionString</key>
+	<string>4.9</string>
+	<key>CFBundleVersion</key>
+	<string>4.9</string>
+	<key>DashDocSetFamily</key>
+	<string>doxy</string>
+	<key>DocSetFallbackURL</key>
+	<string>http://developer.bigfishgames.com/rss/com.bigfishgames.documentation.TBD.atom</string>
+	<key>DocSetFeedName</key>
+	<string>Doxygen generated docs</string>
+	<key>DocSetFeedName - 2</key>
+	<string>Big Fish iOS SDK 4.9</string>
+	<key>DocSetFeedURL</key>
+	<string>http://developer.bigfishgames.com/rss/com.bigfishgames.documentation.TBD.atom</string>
+	<key>DocSetPlatformFamily</key>
+	<string>doxygen</string>
+	<key>DocSetPublisherIdentifier</key>
+	<string>com.bigfishgames.mobile</string>
+	<key>DocSetPublisherName</key>
+	<string>Big Fish Games</string>
+	<key>NSHumanReadableCopyright</key>
+	<string>Copyright © 2014 Big Fish Games. All rights reserved.</string>
+	<key>dashIndexFilePath</key>
+	<string>index.html</string>
+</dict>
+</plist>

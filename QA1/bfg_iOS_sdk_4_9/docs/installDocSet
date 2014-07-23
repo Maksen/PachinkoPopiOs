@@ -1,0 +1,2 @@
+#! /bin/bash
+rsync -r --exclude=.svn ./com.bigfishgames.bfgsdkios.docset ~/Library/Developer/Shared/Documentation/DocSets

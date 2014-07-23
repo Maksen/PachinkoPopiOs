@@ -1,0 +1,699 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		032F459213BCE9AC003FDD45 /* BFGUIKitExampleAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 032F452113BCE243003FDD45 /* BFGUIKitExampleAppDelegate.m */; };
+		032F459313BCE9AC003FDD45 /* BFGUIKitExampleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 032F452313BCE243003FDD45 /* BFGUIKitExampleViewController.m */; };
+		032F459413BCE9AC003FDD45 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 032F452D13BCE243003FDD45 /* main.m */; };
+		032F459613BCE9AC003FDD45 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0319265A13BB8E1600035734 /* UIKit.framework */; };
+		032F459713BCE9AC003FDD45 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0319265C13BB8E1600035734 /* Foundation.framework */; };
+		032F459813BCE9AC003FDD45 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0319265E13BB8E1600035734 /* CoreGraphics.framework */; };
+		032F459A13BCE9AC003FDD45 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 031927BD13BB8E5700035734 /* OpenGLES.framework */; };
+		032F459B13BCE9AC003FDD45 /* iAd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 031927BE13BB8E5700035734 /* iAd.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		032F459C13BCE9AC003FDD45 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 031927BF13BB8E5700035734 /* MessageUI.framework */; };
+		032F459D13BCE9AC003FDD45 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 031927C013BB8E5700035734 /* SystemConfiguration.framework */; };
+		032F459E13BCE9AC003FDD45 /* libicucore.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 031927C113BB8E5700035734 /* libicucore.dylib */; };
+		032F45B613BCE9AC003FDD45 /* Icon-72.png in Resources */ = {isa = PBXBuildFile; fileRef = 031927DC13BB98CC00035734 /* Icon-72.png */; };
+		032F45B713BCE9AC003FDD45 /* Icon-Small-50.png in Resources */ = {isa = PBXBuildFile; fileRef = 031927DD13BB98CC00035734 /* Icon-Small-50.png */; };
+		032F45B813BCE9AC003FDD45 /* Icon-Small.png in Resources */ = {isa = PBXBuildFile; fileRef = 031927DE13BB98CC00035734 /* Icon-Small.png */; };
+		032F45B913BCE9AC003FDD45 /* Icon-Small@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 031927DF13BB98CC00035734 /* Icon-Small@2x.png */; };
+		032F45BA13BCE9AC003FDD45 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 031927E013BB98CC00035734 /* Icon.png */; };
+		032F45BB13BCE9AC003FDD45 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 031927E113BB98CC00035734 /* Icon@2x.png */; };
+		032F45BE13BCE9AC003FDD45 /* iTunesArtwork in Resources */ = {isa = PBXBuildFile; fileRef = 0319283713BBECFE00035734 /* iTunesArtwork */; };
+		032F45BF13BCE9AC003FDD45 /* BFGUIKitExampleViewController-iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 032F452713BCE243003FDD45 /* BFGUIKitExampleViewController-iPad.xib */; };
+		032F45C013BCE9AC003FDD45 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 032F452913BCE243003FDD45 /* InfoPlist.strings */; };
+		032F45C113BCE9AC003FDD45 /* MainWindow-iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 032F452B13BCE243003FDD45 /* MainWindow-iPad.xib */; };
+		034CB15313C388BE004705B0 /* BFGMainMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 034CB15113C388BE004705B0 /* BFGMainMenuViewController.m */; };
+		034CB15613C388C9004705B0 /* BFGMainMenuViewController-iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 034CB15413C388C9004705B0 /* BFGMainMenuViewController-iPad.xib */; };
+		034CB17513C3B01D004705B0 /* MainWindow-iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 034CB17313C3B01D004705B0 /* MainWindow-iPhone.xib */; };
+		034CB17713C3B73B004705B0 /* BFGMainMenuViewController-iPhoneLandscape.xib in Resources */ = {isa = PBXBuildFile; fileRef = 032F472213BCEFB2003FDD45 /* BFGMainMenuViewController-iPhoneLandscape.xib */; };
+		034CB17A13C3B806004705B0 /* BFGUIKitExampleViewController-iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 034CB17813C3B806004705B0 /* BFGUIKitExampleViewController-iPhone.xib */; };
+		034CB19E13C4C35A004705B0 /* BFGInAppPurchaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 034CB19D13C4C35A004705B0 /* BFGInAppPurchaseViewController.m */; };
+		034CB1A313C4C36C004705B0 /* BFGInAppPurchaseViewController-iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 034CB19F13C4C36C004705B0 /* BFGInAppPurchaseViewController-iPad.xib */; };
+		034CB1A413C4C36C004705B0 /* BFGInAppPurchaseViewController-iPhoneLandscape.xib in Resources */ = {isa = PBXBuildFile; fileRef = 034CB1A113C4C36C004705B0 /* BFGInAppPurchaseViewController-iPhoneLandscape.xib */; };
+		034CB1E313C4FA08004705B0 /* BFGGameScreenViewController-iPhoneLandscape.xib in Resources */ = {isa = PBXBuildFile; fileRef = 034CB1E113C4FA08004705B0 /* BFGGameScreenViewController-iPhoneLandscape.xib */; };
+		034CB1E613C4FD63004705B0 /* BFGExampleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 034CB1E513C4FD62004705B0 /* BFGExampleViewController.m */; };
+		034CB22913C500F6004705B0 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 034CB22813C500F6004705B0 /* StoreKit.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		03CB158113BE766C000E6F32 /* BFGGameScreenViewController-iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 03CB157F13BE766C000E6F32 /* BFGGameScreenViewController-iPad.xib */; };
+		03F026F713BE7517007CB99C /* BFGGameScreenViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 03F026F413BE7517007CB99C /* BFGGameScreenViewController.m */; };
+		1603C565172B2790007FF954 /* BFGUIKitExampleLog.m in Sources */ = {isa = PBXBuildFile; fileRef = 1603C564172B2790007FF954 /* BFGUIKitExampleLog.m */; };
+		16367AAE1738144F00232578 /* BFGInAppPurchaseController.m in Sources */ = {isa = PBXBuildFile; fileRef = 16367AAD1738144F00232578 /* BFGInAppPurchaseController.m */; };
+		1641B05E17CC01970085BE8B /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1641B05D17CC01970085BE8B /* CoreText.framework */; };
+		1EB6DFCF1886040500FE21F2 /* BFGBonusContent-iPhoneLandscape.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1EB6DFCD1886040500FE21F2 /* BFGBonusContent-iPhoneLandscape.xib */; };
+		1EB6DFD51886047800FE21F2 /* BFGBonusContent-iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1EB6DFD31886047800FE21F2 /* BFGBonusContent-iPad.xib */; };
+		1EB6DFDE18860F5300FE21F2 /* BFGBonusContentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EB6DFDD18860F5300FE21F2 /* BFGBonusContentViewController.m */; };
+		32C1E01B1595769400DAB661 /* Default-Landscape.png in Resources */ = {isa = PBXBuildFile; fileRef = 32C1E0151595769400DAB661 /* Default-Landscape.png */; };
+		32C1E01D1595769400DAB661 /* Default-Landscape~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 32C1E0171595769400DAB661 /* Default-Landscape~ipad.png */; };
+		32C1E01E1595769400DAB661 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 32C1E0181595769400DAB661 /* Default.png */; };
+		32C1E0201595769400DAB661 /* Default~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 32C1E01A1595769400DAB661 /* Default~ipad.png */; };
+		670E724917849FF700056F70 /* TellAFriend-ipad@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 670E724717849FF700056F70 /* TellAFriend-ipad@2x.png */; };
+		670E724A17849FF700056F70 /* TellAFriend-iphone@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 670E724817849FF700056F70 /* TellAFriend-iphone@2x.png */; };
+		8A0D2F6915CF9F8C00DBE25B /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A0D2F6815CF9F8C00DBE25B /* Security.framework */; };
+		8A13CD8E13EC94BF0022BC98 /* bfgResourcesUniversal.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 8A13CD8D13EC94BF0022BC98 /* bfgResourcesUniversal.bundle */; };
+		8A3DAD76141FDF9F0065803F /* splash_iPad.png in Resources */ = {isa = PBXBuildFile; fileRef = 8A3DAD73141FDF9F0065803F /* splash_iPad.png */; };
+		8A3DAD77141FDF9F0065803F /* splash_iPhone.png in Resources */ = {isa = PBXBuildFile; fileRef = 8A3DAD74141FDF9F0065803F /* splash_iPhone.png */; };
+		8A3DAD78141FDF9F0065803F /* splash_iPhone@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8A3DAD75141FDF9F0065803F /* splash_iPhone@2x.png */; };
+		8A3E762B187C91DD00895D9C /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A3E762A187C91DD00895D9C /* MobileCoreServices.framework */; };
+		8A3E762D187C934D00895D9C /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A3E762C187C934D00895D9C /* CFNetwork.framework */; };
+		8A44254416A9E345003846CE /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A44254316A9E345003846CE /* CoreTelephony.framework */; };
+		8A44254616A9E349003846CE /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A44254516A9E349003846CE /* AdSupport.framework */; };
+		8A8A84EF15DD9C6A00627BDB /* Default-Landscape@2x~iphone.png in Resources */ = {isa = PBXBuildFile; fileRef = 8A8A84ED15DD9C6A00627BDB /* Default-Landscape@2x~iphone.png */; };
+		8A8A84F015DD9C6A00627BDB /* Default@2x~iphone.png in Resources */ = {isa = PBXBuildFile; fileRef = 8A8A84EE15DD9C6A00627BDB /* Default@2x~iphone.png */; };
+		8AA29E8415840B5300B392C9 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 8AA29E8315840B5300B392C9 /* libz.dylib */; };
+		8AA3D58114FBF8390069FD77 /* GameKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8AA3D58014FBF8390069FD77 /* GameKit.framework */; };
+		8AB66DD51410362A002DAD2F /* bfg_default_settings.json in Resources */ = {isa = PBXBuildFile; fileRef = 8AB66DCF1410362A002DAD2F /* bfg_default_settings.json */; };
+		8AB66DD61410362A002DAD2F /* bfgads_bundlepackage.zip in Resources */ = {isa = PBXBuildFile; fileRef = 8AB66DD01410362A002DAD2F /* bfgads_bundlepackage.zip */; };
+		8AB66DD71410362A002DAD2F /* bfgbranding_resources.zip in Resources */ = {isa = PBXBuildFile; fileRef = 8AB66DD11410362A002DAD2F /* bfgbranding_resources.zip */; };
+		8AB66DD91410362A002DAD2F /* bfgpromodashboard_gamespecific.zip in Resources */ = {isa = PBXBuildFile; fileRef = 8AB66DD31410362A002DAD2F /* bfgpromodashboard_gamespecific.zip */; };
+		8AC0B01B175FC0E500498B35 /* bfg_iOS_sdk.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8AC0B01A175FC0E500498B35 /* bfg_iOS_sdk.framework */; };
+		8AC1438C1703ABF5001EAB15 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B1CC86EB16AEFA460001F4C7 /* Default-568h@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0319265A13BB8E1600035734 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		0319265C13BB8E1600035734 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		0319265E13BB8E1600035734 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		031927BD13BB8E5700035734 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		031927BE13BB8E5700035734 /* iAd.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iAd.framework; path = System/Library/Frameworks/iAd.framework; sourceTree = SDKROOT; };
+		031927BF13BB8E5700035734 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		031927C013BB8E5700035734 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		031927C113BB8E5700035734 /* libicucore.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libicucore.dylib; path = usr/lib/libicucore.dylib; sourceTree = SDKROOT; };
+		031927DC13BB98CC00035734 /* Icon-72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-72.png"; sourceTree = "<group>"; };
+		031927DD13BB98CC00035734 /* Icon-Small-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small-50.png"; sourceTree = "<group>"; };
+		031927DE13BB98CC00035734 /* Icon-Small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small.png"; sourceTree = "<group>"; };
+		031927DF13BB98CC00035734 /* Icon-Small@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small@2x.png"; sourceTree = "<group>"; };
+		031927E013BB98CC00035734 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		031927E113BB98CC00035734 /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
+		0319283713BBECFE00035734 /* iTunesArtwork */ = {isa = PBXFileReference; lastKnownFileType = file; path = iTunesArtwork; sourceTree = "<group>"; };
+		032F452013BCE243003FDD45 /* BFGUIKitExampleAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BFGUIKitExampleAppDelegate.h; path = Classes/BFGUIKitExampleAppDelegate.h; sourceTree = SOURCE_ROOT; };
+		032F452113BCE243003FDD45 /* BFGUIKitExampleAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BFGUIKitExampleAppDelegate.m; path = Classes/BFGUIKitExampleAppDelegate.m; sourceTree = SOURCE_ROOT; };
+		032F452213BCE243003FDD45 /* BFGUIKitExampleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BFGUIKitExampleViewController.h; path = Classes/BFGUIKitExampleViewController.h; sourceTree = SOURCE_ROOT; };
+		032F452313BCE243003FDD45 /* BFGUIKitExampleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BFGUIKitExampleViewController.m; path = Classes/BFGUIKitExampleViewController.m; sourceTree = SOURCE_ROOT; };
+		032F452413BCE243003FDD45 /* BFGUIKitExample-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "BFGUIKitExample-Info.plist"; path = "Classes/BFGUIKitExample-Info.plist"; sourceTree = SOURCE_ROOT; };
+		032F452513BCE243003FDD45 /* BFGUIKitExample-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "BFGUIKitExample-Prefix.pch"; path = "Classes/BFGUIKitExample-Prefix.pch"; sourceTree = SOURCE_ROOT; };
+		032F452813BCE243003FDD45 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = "BFGUIKitExampleViewController-iPad.xib"; sourceTree = "<group>"; };
+		032F452A13BCE243003FDD45 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = InfoPlist.strings; sourceTree = "<group>"; };
+		032F452C13BCE243003FDD45 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = "MainWindow-iPad.xib"; sourceTree = "<group>"; };
+		032F452D13BCE243003FDD45 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = Classes/main.m; sourceTree = SOURCE_ROOT; };
+		032F472313BCEFB2003FDD45 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = "en.lproj/BFGMainMenuViewController-iPhoneLandscape.xib"; sourceTree = "<group>"; };
+		034CB15013C388BE004705B0 /* BFGMainMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BFGMainMenuViewController.h; sourceTree = "<group>"; };
+		034CB15113C388BE004705B0 /* BFGMainMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BFGMainMenuViewController.m; sourceTree = "<group>"; };
+		034CB15513C388C9004705B0 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = "en.lproj/BFGMainMenuViewController-iPad.xib"; sourceTree = "<group>"; };
+		034CB17413C3B01D004705B0 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = "en.lproj/MainWindow-iPhone.xib"; sourceTree = "<group>"; };
+		034CB17913C3B806004705B0 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = "en.lproj/BFGUIKitExampleViewController-iPhone.xib"; sourceTree = "<group>"; };
+		034CB19C13C4C35A004705B0 /* BFGInAppPurchaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BFGInAppPurchaseViewController.h; sourceTree = "<group>"; };
+		034CB19D13C4C35A004705B0 /* BFGInAppPurchaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BFGInAppPurchaseViewController.m; sourceTree = "<group>"; };
+		034CB1A013C4C36C004705B0 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = "en.lproj/BFGInAppPurchaseViewController-iPad.xib"; sourceTree = "<group>"; };
+		034CB1A213C4C36C004705B0 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = "en.lproj/BFGInAppPurchaseViewController-iPhoneLandscape.xib"; sourceTree = "<group>"; };
+		034CB1E213C4FA08004705B0 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = "en.lproj/BFGGameScreenViewController-iPhoneLandscape.xib"; sourceTree = "<group>"; };
+		034CB1E413C4FD62004705B0 /* BFGExampleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BFGExampleViewController.h; sourceTree = "<group>"; };
+		034CB1E513C4FD62004705B0 /* BFGExampleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BFGExampleViewController.m; sourceTree = "<group>"; };
+		034CB22813C500F6004705B0 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		03CB158013BE766C000E6F32 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = "en.lproj/BFGGameScreenViewController-iPad.xib"; sourceTree = "<group>"; };
+		03F026F113BE425C007CB99C /* UIKit Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "UIKit Example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		03F026F313BE7517007CB99C /* BFGGameScreenViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BFGGameScreenViewController.h; sourceTree = "<group>"; };
+		03F026F413BE7517007CB99C /* BFGGameScreenViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BFGGameScreenViewController.m; sourceTree = "<group>"; };
+		1603C563172B2790007FF954 /* BFGUIKitExampleLog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BFGUIKitExampleLog.h; sourceTree = "<group>"; };
+		1603C564172B2790007FF954 /* BFGUIKitExampleLog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BFGUIKitExampleLog.m; sourceTree = "<group>"; };
+		16367AAC1738144F00232578 /* BFGInAppPurchaseController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BFGInAppPurchaseController.h; sourceTree = "<group>"; };
+		16367AAD1738144F00232578 /* BFGInAppPurchaseController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BFGInAppPurchaseController.m; sourceTree = "<group>"; };
+		1641B05D17CC01970085BE8B /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
+		1EB6DFCE1886040500FE21F2 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = "Classes/en.lproj/BFGBonusContent-iPhoneLandscape.xib"; sourceTree = "<group>"; };
+		1EB6DFD41886047800FE21F2 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = "Classes/en.lproj/BFGBonusContent-iPad.xib"; sourceTree = "<group>"; };
+		1EB6DFDC18860F5300FE21F2 /* BFGBonusContentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BFGBonusContentViewController.h; sourceTree = "<group>"; };
+		1EB6DFDD18860F5300FE21F2 /* BFGBonusContentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BFGBonusContentViewController.m; sourceTree = "<group>"; };
+		32C1E0151595769400DAB661 /* Default-Landscape.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Landscape.png"; sourceTree = "<group>"; };
+		32C1E0171595769400DAB661 /* Default-Landscape~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Landscape~ipad.png"; sourceTree = "<group>"; };
+		32C1E0181595769400DAB661 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		32C1E01A1595769400DAB661 /* Default~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default~ipad.png"; sourceTree = "<group>"; };
+		670E724717849FF700056F70 /* TellAFriend-ipad@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "TellAFriend-ipad@2x.png"; sourceTree = "<group>"; };
+		670E724817849FF700056F70 /* TellAFriend-iphone@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "TellAFriend-iphone@2x.png"; sourceTree = "<group>"; };
+		8A0D2F6815CF9F8C00DBE25B /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		8A13CD8D13EC94BF0022BC98 /* bfgResourcesUniversal.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = bfgResourcesUniversal.bundle; path = ../../framework/bfgResourcesUniversal.bundle; sourceTree = "<group>"; };
+		8A3DAD73141FDF9F0065803F /* splash_iPad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = splash_iPad.png; sourceTree = "<group>"; };
+		8A3DAD74141FDF9F0065803F /* splash_iPhone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = splash_iPhone.png; sourceTree = "<group>"; };
+		8A3DAD75141FDF9F0065803F /* splash_iPhone@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "splash_iPhone@2x.png"; sourceTree = "<group>"; };
+		8A3E762A187C91DD00895D9C /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		8A3E762C187C934D00895D9C /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		8A44254316A9E345003846CE /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		8A44254516A9E349003846CE /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
+		8A8A84ED15DD9C6A00627BDB /* Default-Landscape@2x~iphone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Landscape@2x~iphone.png"; sourceTree = "<group>"; };
+		8A8A84EE15DD9C6A00627BDB /* Default@2x~iphone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x~iphone.png"; sourceTree = "<group>"; };
+		8AA29E8315840B5300B392C9 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		8AA3D58014FBF8390069FD77 /* GameKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GameKit.framework; path = System/Library/Frameworks/GameKit.framework; sourceTree = SDKROOT; };
+		8AB66DCF1410362A002DAD2F /* bfg_default_settings.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = bfg_default_settings.json; sourceTree = "<group>"; };
+		8AB66DD01410362A002DAD2F /* bfgads_bundlepackage.zip */ = {isa = PBXFileReference; lastKnownFileType = archive.zip; path = bfgads_bundlepackage.zip; sourceTree = "<group>"; };
+		8AB66DD11410362A002DAD2F /* bfgbranding_resources.zip */ = {isa = PBXFileReference; lastKnownFileType = archive.zip; path = bfgbranding_resources.zip; sourceTree = "<group>"; };
+		8AB66DD31410362A002DAD2F /* bfgpromodashboard_gamespecific.zip */ = {isa = PBXFileReference; lastKnownFileType = archive.zip; path = bfgpromodashboard_gamespecific.zip; sourceTree = "<group>"; };
+		8AC0B01A175FC0E500498B35 /* bfg_iOS_sdk.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = bfg_iOS_sdk.framework; path = ../../framework/bfg_iOS_sdk.framework; sourceTree = "<group>"; };
+		B1CC86EB16AEFA460001F4C7 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		032F459513BCE9AC003FDD45 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A3E762D187C934D00895D9C /* CFNetwork.framework in Frameworks */,
+				8A3E762B187C91DD00895D9C /* MobileCoreServices.framework in Frameworks */,
+				8A44254616A9E349003846CE /* AdSupport.framework in Frameworks */,
+				032F459813BCE9AC003FDD45 /* CoreGraphics.framework in Frameworks */,
+				8A44254416A9E345003846CE /* CoreTelephony.framework in Frameworks */,
+				1641B05E17CC01970085BE8B /* CoreText.framework in Frameworks */,
+				032F459713BCE9AC003FDD45 /* Foundation.framework in Frameworks */,
+				8AA3D58114FBF8390069FD77 /* GameKit.framework in Frameworks */,
+				032F459B13BCE9AC003FDD45 /* iAd.framework in Frameworks */,
+				032F459C13BCE9AC003FDD45 /* MessageUI.framework in Frameworks */,
+				032F459A13BCE9AC003FDD45 /* OpenGLES.framework in Frameworks */,
+				8A0D2F6915CF9F8C00DBE25B /* Security.framework in Frameworks */,
+				034CB22913C500F6004705B0 /* StoreKit.framework in Frameworks */,
+				032F459D13BCE9AC003FDD45 /* SystemConfiguration.framework in Frameworks */,
+				032F459613BCE9AC003FDD45 /* UIKit.framework in Frameworks */,
+				032F459E13BCE9AC003FDD45 /* libicucore.dylib in Frameworks */,
+				8AA29E8415840B5300B392C9 /* libz.dylib in Frameworks */,
+				8AC0B01B175FC0E500498B35 /* bfg_iOS_sdk.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0319264B13BB8E1600035734 = {
+			isa = PBXGroup;
+			children = (
+				B1CC86EB16AEFA460001F4C7 /* Default-568h@2x.png */,
+				0319266013BB8E1600035734 /* Classes */,
+				031927D713BB98A800035734 /* Resources */,
+				0319265913BB8E1600035734 /* Frameworks */,
+				0319265713BB8E1600035734 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0319265713BB8E1600035734 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				03F026F113BE425C007CB99C /* UIKit Example.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0319265913BB8E1600035734 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8A3E762C187C934D00895D9C /* CFNetwork.framework */,
+				8A44254516A9E349003846CE /* AdSupport.framework */,
+				8AC0B01A175FC0E500498B35 /* bfg_iOS_sdk.framework */,
+				0319265E13BB8E1600035734 /* CoreGraphics.framework */,
+				8A44254316A9E345003846CE /* CoreTelephony.framework */,
+				1641B05D17CC01970085BE8B /* CoreText.framework */,
+				0319265C13BB8E1600035734 /* Foundation.framework */,
+				8AA3D58014FBF8390069FD77 /* GameKit.framework */,
+				031927BE13BB8E5700035734 /* iAd.framework */,
+				031927C113BB8E5700035734 /* libicucore.dylib */,
+				8AA29E8315840B5300B392C9 /* libz.dylib */,
+				031927BF13BB8E5700035734 /* MessageUI.framework */,
+				8A3E762A187C91DD00895D9C /* MobileCoreServices.framework */,
+				031927BD13BB8E5700035734 /* OpenGLES.framework */,
+				8A0D2F6815CF9F8C00DBE25B /* Security.framework */,
+				034CB22813C500F6004705B0 /* StoreKit.framework */,
+				031927C013BB8E5700035734 /* SystemConfiguration.framework */,
+				0319265A13BB8E1600035734 /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0319266013BB8E1600035734 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				1EB6DFDC18860F5300FE21F2 /* BFGBonusContentViewController.h */,
+				1EB6DFDD18860F5300FE21F2 /* BFGBonusContentViewController.m */,
+				034CB1E413C4FD62004705B0 /* BFGExampleViewController.h */,
+				034CB1E513C4FD62004705B0 /* BFGExampleViewController.m */,
+				03F026F313BE7517007CB99C /* BFGGameScreenViewController.h */,
+				03F026F413BE7517007CB99C /* BFGGameScreenViewController.m */,
+				16367AAC1738144F00232578 /* BFGInAppPurchaseController.h */,
+				16367AAD1738144F00232578 /* BFGInAppPurchaseController.m */,
+				034CB19C13C4C35A004705B0 /* BFGInAppPurchaseViewController.h */,
+				034CB19D13C4C35A004705B0 /* BFGInAppPurchaseViewController.m */,
+				034CB15013C388BE004705B0 /* BFGMainMenuViewController.h */,
+				034CB15113C388BE004705B0 /* BFGMainMenuViewController.m */,
+				032F452013BCE243003FDD45 /* BFGUIKitExampleAppDelegate.h */,
+				032F452113BCE243003FDD45 /* BFGUIKitExampleAppDelegate.m */,
+				1603C563172B2790007FF954 /* BFGUIKitExampleLog.h */,
+				1603C564172B2790007FF954 /* BFGUIKitExampleLog.m */,
+				032F452213BCE243003FDD45 /* BFGUIKitExampleViewController.h */,
+				032F452313BCE243003FDD45 /* BFGUIKitExampleViewController.m */,
+				032F452613BCE243003FDD45 /* Supporting Files */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		031927D713BB98A800035734 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				670904581783AB970067E8F9 /* Tell a friend */,
+				8A3DAD73141FDF9F0065803F /* splash_iPad.png */,
+				8A3DAD74141FDF9F0065803F /* splash_iPhone.png */,
+				8A3DAD75141FDF9F0065803F /* splash_iPhone@2x.png */,
+				8AB66DCE1410362A002DAD2F /* bfglib_gamespecific_resources */,
+				8A13CD8D13EC94BF0022BC98 /* bfgResourcesUniversal.bundle */,
+				8AB7F96213C5985A008BC330 /* icons and Default */,
+				8AB7F96113C59851008BC330 /* xibs */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		032F452613BCE243003FDD45 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				032F452413BCE243003FDD45 /* BFGUIKitExample-Info.plist */,
+				032F452513BCE243003FDD45 /* BFGUIKitExample-Prefix.pch */,
+				032F452D13BCE243003FDD45 /* main.m */,
+				032F452913BCE243003FDD45 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			path = Classes/en.lproj;
+			sourceTree = SOURCE_ROOT;
+		};
+		670904581783AB970067E8F9 /* Tell a friend */ = {
+			isa = PBXGroup;
+			children = (
+				670E724717849FF700056F70 /* TellAFriend-ipad@2x.png */,
+				670E724817849FF700056F70 /* TellAFriend-iphone@2x.png */,
+			);
+			name = "Tell a friend";
+			sourceTree = "<group>";
+		};
+		8AB66DCE1410362A002DAD2F /* bfglib_gamespecific_resources */ = {
+			isa = PBXGroup;
+			children = (
+				8AB66DCF1410362A002DAD2F /* bfg_default_settings.json */,
+				8AB66DD01410362A002DAD2F /* bfgads_bundlepackage.zip */,
+				8AB66DD11410362A002DAD2F /* bfgbranding_resources.zip */,
+				8AB66DD31410362A002DAD2F /* bfgpromodashboard_gamespecific.zip */,
+			);
+			name = bfglib_gamespecific_resources;
+			path = Resources/bfglib_gamespecific_resources;
+			sourceTree = "<group>";
+		};
+		8AB7F96113C59851008BC330 /* xibs */ = {
+			isa = PBXGroup;
+			children = (
+				1EB6DFD31886047800FE21F2 /* BFGBonusContent-iPad.xib */,
+				1EB6DFCD1886040500FE21F2 /* BFGBonusContent-iPhoneLandscape.xib */,
+				032F452B13BCE243003FDD45 /* MainWindow-iPad.xib */,
+				034CB17313C3B01D004705B0 /* MainWindow-iPhone.xib */,
+				032F452713BCE243003FDD45 /* BFGUIKitExampleViewController-iPad.xib */,
+				034CB17813C3B806004705B0 /* BFGUIKitExampleViewController-iPhone.xib */,
+				034CB15413C388C9004705B0 /* BFGMainMenuViewController-iPad.xib */,
+				032F472213BCEFB2003FDD45 /* BFGMainMenuViewController-iPhoneLandscape.xib */,
+				03CB157F13BE766C000E6F32 /* BFGGameScreenViewController-iPad.xib */,
+				034CB1E113C4FA08004705B0 /* BFGGameScreenViewController-iPhoneLandscape.xib */,
+				034CB19F13C4C36C004705B0 /* BFGInAppPurchaseViewController-iPad.xib */,
+				034CB1A113C4C36C004705B0 /* BFGInAppPurchaseViewController-iPhoneLandscape.xib */,
+			);
+			name = xibs;
+			sourceTree = "<group>";
+		};
+		8AB7F96213C5985A008BC330 /* icons and Default */ = {
+			isa = PBXGroup;
+			children = (
+				8A8A84ED15DD9C6A00627BDB /* Default-Landscape@2x~iphone.png */,
+				8A8A84EE15DD9C6A00627BDB /* Default@2x~iphone.png */,
+				32C1E0151595769400DAB661 /* Default-Landscape.png */,
+				32C1E0171595769400DAB661 /* Default-Landscape~ipad.png */,
+				32C1E0181595769400DAB661 /* Default.png */,
+				32C1E01A1595769400DAB661 /* Default~ipad.png */,
+				0319283713BBECFE00035734 /* iTunesArtwork */,
+				031927DC13BB98CC00035734 /* Icon-72.png */,
+				031927DD13BB98CC00035734 /* Icon-Small-50.png */,
+				031927DE13BB98CC00035734 /* Icon-Small.png */,
+				031927DF13BB98CC00035734 /* Icon-Small@2x.png */,
+				031927E013BB98CC00035734 /* Icon.png */,
+				031927E113BB98CC00035734 /* Icon@2x.png */,
+			);
+			name = "icons and Default";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		032F455C13BCE9AC003FDD45 /* BFGUIKitExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 032F45C213BCE9AC003FDD45 /* Build configuration list for PBXNativeTarget "BFGUIKitExample" */;
+			buildPhases = (
+				032F455D13BCE9AC003FDD45 /* Sources */,
+				032F459513BCE9AC003FDD45 /* Frameworks */,
+				032F459F13BCE9AC003FDD45 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BFGUIKitExample;
+			productName = BFGUIKitExample;
+			productReference = 03F026F113BE425C007CB99C /* UIKit Example.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0319264D13BB8E1600035734 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+			};
+			buildConfigurationList = 0319265013BB8E1600035734 /* Build configuration list for PBXProject "BFGUIKitExample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 0319264B13BB8E1600035734;
+			productRefGroup = 0319265713BB8E1600035734 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				032F455C13BCE9AC003FDD45 /* BFGUIKitExample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		032F459F13BCE9AC003FDD45 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				032F45B613BCE9AC003FDD45 /* Icon-72.png in Resources */,
+				032F45B713BCE9AC003FDD45 /* Icon-Small-50.png in Resources */,
+				032F45B813BCE9AC003FDD45 /* Icon-Small.png in Resources */,
+				1EB6DFD51886047800FE21F2 /* BFGBonusContent-iPad.xib in Resources */,
+				032F45B913BCE9AC003FDD45 /* Icon-Small@2x.png in Resources */,
+				032F45BA13BCE9AC003FDD45 /* Icon.png in Resources */,
+				032F45BB13BCE9AC003FDD45 /* Icon@2x.png in Resources */,
+				032F45BE13BCE9AC003FDD45 /* iTunesArtwork in Resources */,
+				032F45BF13BCE9AC003FDD45 /* BFGUIKitExampleViewController-iPad.xib in Resources */,
+				032F45C013BCE9AC003FDD45 /* InfoPlist.strings in Resources */,
+				032F45C113BCE9AC003FDD45 /* MainWindow-iPad.xib in Resources */,
+				03CB158113BE766C000E6F32 /* BFGGameScreenViewController-iPad.xib in Resources */,
+				034CB15613C388C9004705B0 /* BFGMainMenuViewController-iPad.xib in Resources */,
+				1EB6DFCF1886040500FE21F2 /* BFGBonusContent-iPhoneLandscape.xib in Resources */,
+				034CB17513C3B01D004705B0 /* MainWindow-iPhone.xib in Resources */,
+				034CB17713C3B73B004705B0 /* BFGMainMenuViewController-iPhoneLandscape.xib in Resources */,
+				034CB17A13C3B806004705B0 /* BFGUIKitExampleViewController-iPhone.xib in Resources */,
+				034CB1A313C4C36C004705B0 /* BFGInAppPurchaseViewController-iPad.xib in Resources */,
+				034CB1A413C4C36C004705B0 /* BFGInAppPurchaseViewController-iPhoneLandscape.xib in Resources */,
+				034CB1E313C4FA08004705B0 /* BFGGameScreenViewController-iPhoneLandscape.xib in Resources */,
+				8A13CD8E13EC94BF0022BC98 /* bfgResourcesUniversal.bundle in Resources */,
+				8AB66DD51410362A002DAD2F /* bfg_default_settings.json in Resources */,
+				8AB66DD61410362A002DAD2F /* bfgads_bundlepackage.zip in Resources */,
+				8AB66DD71410362A002DAD2F /* bfgbranding_resources.zip in Resources */,
+				8AB66DD91410362A002DAD2F /* bfgpromodashboard_gamespecific.zip in Resources */,
+				8A3DAD76141FDF9F0065803F /* splash_iPad.png in Resources */,
+				8A3DAD77141FDF9F0065803F /* splash_iPhone.png in Resources */,
+				8A3DAD78141FDF9F0065803F /* splash_iPhone@2x.png in Resources */,
+				32C1E01B1595769400DAB661 /* Default-Landscape.png in Resources */,
+				32C1E01D1595769400DAB661 /* Default-Landscape~ipad.png in Resources */,
+				32C1E01E1595769400DAB661 /* Default.png in Resources */,
+				32C1E0201595769400DAB661 /* Default~ipad.png in Resources */,
+				8A8A84EF15DD9C6A00627BDB /* Default-Landscape@2x~iphone.png in Resources */,
+				8A8A84F015DD9C6A00627BDB /* Default@2x~iphone.png in Resources */,
+				8AC1438C1703ABF5001EAB15 /* Default-568h@2x.png in Resources */,
+				670E724917849FF700056F70 /* TellAFriend-ipad@2x.png in Resources */,
+				670E724A17849FF700056F70 /* TellAFriend-iphone@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		032F455D13BCE9AC003FDD45 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				032F459213BCE9AC003FDD45 /* BFGUIKitExampleAppDelegate.m in Sources */,
+				032F459313BCE9AC003FDD45 /* BFGUIKitExampleViewController.m in Sources */,
+				1EB6DFDE18860F5300FE21F2 /* BFGBonusContentViewController.m in Sources */,
+				032F459413BCE9AC003FDD45 /* main.m in Sources */,
+				03F026F713BE7517007CB99C /* BFGGameScreenViewController.m in Sources */,
+				034CB15313C388BE004705B0 /* BFGMainMenuViewController.m in Sources */,
+				034CB19E13C4C35A004705B0 /* BFGInAppPurchaseViewController.m in Sources */,
+				034CB1E613C4FD63004705B0 /* BFGExampleViewController.m in Sources */,
+				1603C565172B2790007FF954 /* BFGUIKitExampleLog.m in Sources */,
+				16367AAE1738144F00232578 /* BFGInAppPurchaseController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		032F452713BCE243003FDD45 /* BFGUIKitExampleViewController-iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				032F452813BCE243003FDD45 /* en */,
+			);
+			name = "BFGUIKitExampleViewController-iPad.xib";
+			path = Classes/en.lproj;
+			sourceTree = "<group>";
+		};
+		032F452913BCE243003FDD45 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				032F452A13BCE243003FDD45 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		032F452B13BCE243003FDD45 /* MainWindow-iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				032F452C13BCE243003FDD45 /* en */,
+			);
+			name = "MainWindow-iPad.xib";
+			path = Classes/en.lproj;
+			sourceTree = "<group>";
+		};
+		032F472213BCEFB2003FDD45 /* BFGMainMenuViewController-iPhoneLandscape.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				032F472313BCEFB2003FDD45 /* en */,
+			);
+			name = "BFGMainMenuViewController-iPhoneLandscape.xib";
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		034CB15413C388C9004705B0 /* BFGMainMenuViewController-iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				034CB15513C388C9004705B0 /* en */,
+			);
+			name = "BFGMainMenuViewController-iPad.xib";
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		034CB17313C3B01D004705B0 /* MainWindow-iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				034CB17413C3B01D004705B0 /* en */,
+			);
+			name = "MainWindow-iPhone.xib";
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		034CB17813C3B806004705B0 /* BFGUIKitExampleViewController-iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				034CB17913C3B806004705B0 /* en */,
+			);
+			name = "BFGUIKitExampleViewController-iPhone.xib";
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		034CB19F13C4C36C004705B0 /* BFGInAppPurchaseViewController-iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				034CB1A013C4C36C004705B0 /* en */,
+			);
+			name = "BFGInAppPurchaseViewController-iPad.xib";
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		034CB1A113C4C36C004705B0 /* BFGInAppPurchaseViewController-iPhoneLandscape.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				034CB1A213C4C36C004705B0 /* en */,
+			);
+			name = "BFGInAppPurchaseViewController-iPhoneLandscape.xib";
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		034CB1E113C4FA08004705B0 /* BFGGameScreenViewController-iPhoneLandscape.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				034CB1E213C4FA08004705B0 /* en */,
+			);
+			name = "BFGGameScreenViewController-iPhoneLandscape.xib";
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		03CB157F13BE766C000E6F32 /* BFGGameScreenViewController-iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				03CB158013BE766C000E6F32 /* en */,
+			);
+			name = "BFGGameScreenViewController-iPad.xib";
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		1EB6DFCD1886040500FE21F2 /* BFGBonusContent-iPhoneLandscape.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1EB6DFCE1886040500FE21F2 /* en */,
+			);
+			name = "BFGBonusContent-iPhoneLandscape.xib";
+			sourceTree = "<group>";
+		};
+		1EB6DFD31886047800FE21F2 /* BFGBonusContent-iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1EB6DFD41886047800FE21F2 /* en */,
+			);
+			name = "BFGBonusContent-iPad.xib";
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0319268B13BB8E1600035734 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APP_VERSION = 2.1;
+				ARCHS = "$(ARCHS_UNIVERSAL_IPHONE_OS)";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = "";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_INPUT_FILETYPE = automatic;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = BFGLIB_DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				LIBRARY_SEARCH_PATHS = "";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALID_ARCHS = armv7;
+			};
+			name = Debug;
+		};
+		0319268C13BB8E1600035734 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APP_VERSION = 2.1;
+				ARCHS = "$(ARCHS_UNIVERSAL_IPHONE_OS)";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = "";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_INPUT_FILETYPE = automatic;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALID_ARCHS = armv7;
+			};
+			name = Release;
+		};
+		032F45C313BCE9AC003FDD45 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = "$(SRCROOT)/../../framework";
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Classes/BFGUIKitExample-Prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INFOPLIST_FILE = "Classes/BFGUIKitExample-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				LIBRARY_SEARCH_PATHS = "";
+				PRODUCT_NAME = "UIKit Example";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALID_ARCHS = "armv7 i386 armv7s";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		032F45C413BCE9AC003FDD45 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				FRAMEWORK_SEARCH_PATHS = "$(SRCROOT)/../../framework";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Classes/BFGUIKitExample-Prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INFOPLIST_FILE = "Classes/BFGUIKitExample-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				LIBRARY_SEARCH_PATHS = "";
+				PRODUCT_NAME = "UIKit Example";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VALID_ARCHS = "armv7 i386 armv7s";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0319265013BB8E1600035734 /* Build configuration list for PBXProject "BFGUIKitExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0319268B13BB8E1600035734 /* Debug */,
+				0319268C13BB8E1600035734 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		032F45C213BCE9AC003FDD45 /* Build configuration list for PBXNativeTarget "BFGUIKitExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				032F45C313BCE9AC003FDD45 /* Debug */,
+				032F45C413BCE9AC003FDD45 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0319264D13BB8E1600035734 /* Project object */;
+}

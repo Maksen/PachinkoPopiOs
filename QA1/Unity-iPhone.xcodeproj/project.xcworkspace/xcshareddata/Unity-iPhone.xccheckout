@@ -14,7 +14,7 @@
 		<string>https://extsvn.bigfishgames.com/svn/pachinkoiOSclient</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>trunk/SteelSteedStudio/QA1/Pachinko_iOS/Unity-iPhone.xcodeproj/project.xcworkspace</string>
+	<string>trunk/Unity-iPhone.xcodeproj/project.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>94B11EE7-6B9F-41F3-9D29-3713CD310AB3</key>

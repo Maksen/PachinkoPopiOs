@@ -1,0 +1,17 @@
+{
+	"allowed_ad_types":
+	[
+	  "bfg"
+	],
+    "hbi" : "e7338febd01d7911fdb2156ba4bfbe1d1922d4a9",
+    "dashboard_display_type":"free",
+ 	"dashboard_active":1,
+	"dashboard_show_after_this_many_runs":1,
+	"iap_default_product_id":"com.bigfishgames.bfgsdk.seunlock",
+	"flurryapikey":"XXLHVS3BWUU2VVTILTZD",
+    "rating_days_until_prompt":0,
+    "rating_uses_until_prompt":0,
+    "rating_significant_events_until_prompt":3,
+    "rating_days_before_reminding":1
+}
+

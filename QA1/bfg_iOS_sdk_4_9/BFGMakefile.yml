@@ -1,0 +1,5 @@
+projects:
+  - name: examples/UIKitExample/BFGUIKitExample.xcodeproj
+    alias: UIKitExample
+    default: true
+  
